@@ -24,6 +24,24 @@ hr {
     width: 50%;
 }
 
+::placeholder {
+ padding-left: 10px;
+}
+
+input {
+    border: 0px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #ff0000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 20px;
+    border: 0px;
+}
+
 /*-------------------------------Footer*/
 .footer-container {
     background-color: #c4c4c4;
