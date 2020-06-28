@@ -14,3 +14,96 @@ a, a:hover {
     text-decoration: none;
     color: inherit;
 }
+
+h3 {
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 1px solid #000000;
+    width: 50%;
+}
+
+/*-------------------------------Footer*/
+.footer-container {
+    background-color: #c4c4c4;
+}
+
+.footer-content {
+    width: 92%;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 500px;
+}
+
+.newsletter {
+    text-align: center;
+    margin: auto 0;
+}
+
+#newsletter-email {
+    width: 70%;
+    height: 40px;
+    min-width: 270px;
+}
+
+.location-map {
+    min-width: 100px;
+    min-height: 350px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*-------------------------------Social*/
+.social-container {
+    width: 92%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    height: 150px;
+}
+
+.social {
+    text-align: center;
+    margin: auto 0;
+}
+
+.social ul {
+    padding: 0;
+}
+
+.social ul li{
+    display: inline;
+    padding: 0 40px;
+    font-size: 3.5rem;
+}
+
+/*-------------------------------Legal*/
+.legal {
+    width: 100%;
+    background-color: #a6a6a6;
+    font-size: 0.65rem;
+}
+
+.legal-content {
+    width: 92%;
+    margin: auto;
+    padding: 7.5px 0;
+    height: 30px;
+    font-weight: 500; 
+}
+
+.copywrite {
+    float: left;
+}
+
+.legal-documents {
+    float: right;
+}
+
+.legal-documents-navbar li {
+    display: inline;
+    padding-left: 20px;
+}
