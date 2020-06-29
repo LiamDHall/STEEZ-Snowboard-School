@@ -42,48 +42,58 @@ input {
     border: 0px;
 }
 
+ul {
+    margin-bottom: 0;
+}
+
 /*-------------------------------Site Header*/ 
-header {
+.site-header {
     width: 100%;
-    color: #000000;
     background-color: #ffffff;
+    z-index: 2;
 }
 
 .header-content {
-    width: 92%;
-    margin: auto;
     padding: 20px 0;
     height: 60px;
+    line-height: 1.3;
 }
 
 .logo { 
     float: left;
-    margin: auto 0;
+    margin-left: 45px;
 }
 
 .logo h2 {
-    margin: auto 0;
-    line-height: 0.7;
-
+    line-height: 0.6;
+ 
 }
-
 .logo-tag {
     margin-left: 10px;
     padding-left: 10px;
     border-left: 1px solid #000000;
-    float: left;
 }
 
-.header-navbar {
-    list-style: none;
-    margin-left: 125px;
-    float: left;
+.call-to-action {
+    float: right;
+    margin-right: 45px;
+}
+
+.call-to-action a {
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+#header-navbar-collapse{
+    float: right;
 }
 
 .header-navbar li {
     display: inline;
-    margin-left: 22px;
-    font-size: 0.9rem;
+    padding-right: 22px;
+    font-size: 0.8rem;
 }
 
 .header-navbar li:last-child{
@@ -91,18 +101,6 @@ header {
     display: none;
     background-color: #ff0000;
 }
-
-.call-to-action {
-    float: right;
-}
-
-.call-to-action a {
-    margin: auto 0;
-    background-color: #ff0000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: #ffffff;
-} 
 
 /*-------------------------------Footer*/
 .footer-container {
