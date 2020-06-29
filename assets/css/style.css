@@ -47,7 +47,8 @@ ul {
 }
 
 /*-------------------------------(NOT MY CODE) Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk */ 
-@media (min-width: 1024px){
+/*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
+@media (min-width: 1025px){
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
