@@ -185,3 +185,54 @@ ul {
     display: inline;
     padding-left: 20px;
 }
+
+/*-------------------------------Mobile & Responsive Footer (All Sections)*/
+@media screen and (max-width: 992px) {
+    #newsletter-submit, #newsletter-email {
+        width: 100%;
+        min-width: 0px;
+    }
+
+    #newsletter-submit {
+        margin-top: 10px;
+    }
+}
+/*-------------------------------Tablet*/
+@media screen and (max-width: 768px) {
+    
+    .footer-content {
+        height: 100%;
+    }
+
+    .newsletter {
+         padding-top: 20px;
+    }
+
+    .social ul li {
+        padding: 0 30px;
+    }
+
+    .location-map {
+        padding: 60px 0 20px;
+    }
+}
+/*-------------------------------Tablet (Small)*/
+@media screen and (max-width: 576px) {
+    .social ul li {
+        padding: 0 15px;
+    }
+}
+/*-------------------------------Mobile (Large)*/
+@media screen and (max-width: 425px) {
+    .social ul li {
+        font-size: 3.5rem;
+        padding: 0 10px;
+    }
+}
+/*-------------------------------Mobile*/
+@media screen and (max-width: 374px) {
+    .social ul li {
+        font-size: 3rem;
+        padding: 0 5px;
+    }
+}
