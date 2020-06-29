@@ -46,6 +46,29 @@ ul {
     margin-bottom: 0;
 }
 
+/*-------------------------------(NOT MY CODE) Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk */ 
+@media (min-width: 1024px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+/*-------------------------------(END of NOT MY CODE)*/
+
 /*-------------------------------Site Header*/ 
 .site-header {
     width: 100%;
@@ -101,6 +124,7 @@ ul {
     display: none;
     background-color: #ff0000;
 }
+
 /*-------------------------------Mobile & Responsive: Nav & Site Header*/
 .navbar-toggler {
     padding: 10px;
@@ -112,9 +136,9 @@ ul {
     transform: translateY(-50%);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
    .call-to-action {
-        margin-right: 45px;
+        margin-right: 22px;
     }
    
     #header-navbar-collapse {
@@ -122,26 +146,6 @@ ul {
         color: #ffffff;
         width: 100%;
         position: relative;
-        top: 13px;
-    }
-    
-    .header-navbar {
-        margin: 0 auto;
-        padding: 5px 0;
-        text-align: center;
-    }
-
-    .header-navbar li {
-        padding: 0 11px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .call-to-action {
-        margin-right: 22px;
-    }
-
-    #header-navbar-collapse {
         top: -1px;
     }
     
@@ -165,6 +169,12 @@ ul {
 
     .header-navbar li:last-child {
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header-navbar-collapse {
+        top: -1px;
     }
 
     .logo {
@@ -287,7 +297,7 @@ ul {
         margin-top: 10px;
     }
 }
-/*-------------------------------Tablet*/
+
 @media screen and (max-width: 768px) {
     
     .footer-content {
@@ -306,20 +316,20 @@ ul {
         padding: 60px 0 20px;
     }
 }
-/*-------------------------------Tablet (Small)*/
+
 @media screen and (max-width: 576px) {
     .social ul li {
         padding: 0 15px;
     }
 }
-/*-------------------------------Mobile (Large)*/
+
 @media screen and (max-width: 425px) {
     .social ul li {
         font-size: 3.5rem;
         padding: 0 10px;
     }
 }
-/*-------------------------------Mobile*/
+
 @media screen and (max-width: 374px) {
     .social ul li {
         font-size: 3rem;
