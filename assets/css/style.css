@@ -42,6 +42,68 @@ input {
     border: 0px;
 }
 
+/*-------------------------------Site Header*/ 
+header {
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.header-content {
+    width: 92%;
+    margin: auto;
+    padding: 20px 0;
+    height: 60px;
+}
+
+.logo { 
+    float: left;
+    margin: auto 0;
+}
+
+.logo h2 {
+    margin: auto 0;
+    line-height: 0.7;
+
+}
+
+.logo-tag {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #000000;
+    float: left;
+}
+
+.header-navbar {
+    list-style: none;
+    margin-left: 125px;
+    float: left;
+}
+
+.header-navbar li {
+    display: inline;
+    margin-left: 22px;
+    font-size: 0.9rem;
+}
+
+.header-navbar li:last-child{
+    padding: 0px;
+    display: none;
+    background-color: #ff0000;
+}
+
+.call-to-action {
+    float: right;
+}
+
+.call-to-action a {
+    margin: auto 0;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+} 
+
 /*-------------------------------Footer*/
 .footer-container {
     background-color: #c4c4c4;
