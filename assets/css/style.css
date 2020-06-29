@@ -101,6 +101,96 @@ ul {
     display: none;
     background-color: #ff0000;
 }
+/*-------------------------------Mobile & Responsive: Nav & Site Header*/
+.navbar-toggler {
+    padding: 10px;
+    float: right;
+    margin-right: 45px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 992px) {
+   .call-to-action {
+        margin-right: 45px;
+    }
+   
+    #header-navbar-collapse {
+        background: #000000;
+        color: #ffffff;
+        width: 100%;
+        position: relative;
+        top: 13px;
+    }
+    
+    .header-navbar {
+        margin: 0 auto;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .header-navbar li {
+        padding: 0 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .call-to-action {
+        margin-right: 22px;
+    }
+
+    #header-navbar-collapse {
+        top: -1px;
+    }
+    
+    .header-navbar {
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-navbar li {
+        display: block;
+        list-style: none;
+        border-bottom: 1px solid #ffffff;
+        font-size: 1rem;
+        padding: 0;
+    }    
+
+    .header-navbar li a {
+        padding: 20px;
+        display: block;
+    }  
+
+    .header-navbar li:last-child {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 32px;
+    }
+
+    .navbar-toggler {
+        margin-right: 22px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-navbar li:last-child {
+        display: block;
+    }
+
+    .call-to-action a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .logo-tag {
+        display: none;
+    }
+}
 
 /*-------------------------------Footer*/
 .footer-container {
