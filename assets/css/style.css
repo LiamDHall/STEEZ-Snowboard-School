@@ -46,6 +46,11 @@ ul {
     margin-bottom: 0;
 }
 
+button {
+    padding: 0;
+    border: 0;
+}
+
 /*-------------------------------(NOT MY CODE) Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk */ 
 /*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
 @media (min-width: 1025px){
