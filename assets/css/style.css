@@ -225,8 +225,8 @@ main {
 .footer-content {
     width: 92%;
     margin: 0 auto;
-    padding: 20px 0;
-    height: 500px;
+    padding-top: 30px;
+    height: 400px;
 }
 
 .newsletter {
@@ -242,7 +242,7 @@ main {
 
 .location-map {
     min-width: 100px;
-    min-height: 350px;
+    min-height: 300px;
     margin: auto;
     position: relative;
     top: 50%;
@@ -254,7 +254,6 @@ main {
 .social-container {
     width: 92%;
     margin: 0 auto;
-    padding-bottom: 40px;
     height: 150px;
 }
 
@@ -306,7 +305,7 @@ main {
 }
 
 .legal-documents-navbar li a {
-    padding: 5px;
+    padding: 5px 0;
 }
 
 /*-------------------------------Mobile & Responsive Footer (All Sections)*/
