@@ -51,6 +51,10 @@ button {
     border: 0;
 }
 
+main {
+    padding-top: 60px;
+}
+
 /*-------------------------------(NOT MY CODE) Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk */ 
 /*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
 @media (min-width: 1025px){
@@ -80,6 +84,7 @@ button {
     width: 100%;
     background-color: #ffffff;
     z-index: 2;
+    position: fixed
 }
 
 .header-content {
