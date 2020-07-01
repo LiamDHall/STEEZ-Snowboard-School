@@ -274,6 +274,10 @@ ul {
     font-weight: 500; 
 }
 
+.legal p {
+    margin: 0;
+}
+
 .copywrite {
     float: left;
 }
