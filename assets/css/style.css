@@ -304,6 +304,10 @@ main {
     float: right;
 }
 
+.legal-documents-navbar {
+    padding-left: 0px;
+}
+
 .legal-documents-navbar li {
     display: inline;
     padding-left: 20px;
