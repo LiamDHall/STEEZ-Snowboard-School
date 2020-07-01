@@ -185,6 +185,11 @@ main {
     .header-navbar li:last-child {
         display: none;
     }
+    
+    .active {
+    border-bottom: 0px;
+    background-color: #3f3f3f;
+    }
 }
 
 @media screen and (max-width: 768px) {
