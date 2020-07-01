@@ -305,6 +305,10 @@ main {
     padding-left: 20px;
 }
 
+.legal-documents-navbar li a {
+    padding: 5px;
+}
+
 /*-------------------------------Mobile & Responsive Footer (All Sections)*/
 @media screen and (max-width: 992px) {
     #newsletter-submit, #newsletter-email {
