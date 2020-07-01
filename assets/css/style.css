@@ -131,6 +131,10 @@ button {
     background-color: #ff0000;
 }
 
+.active {
+    border-bottom: 2px solid #ff0000;
+}
+
 /*-------------------------------Mobile & Responsive: Nav & Site Header*/
 .navbar-toggler {
     padding: 10px;
