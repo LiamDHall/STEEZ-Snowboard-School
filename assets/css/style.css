@@ -113,13 +113,15 @@ main {
 }
 
 .logo h2 {
-    line-height: 0.6;
+    line-height: 0.8;
  
 }
 .logo-tag {
     margin-left: 10px;
     padding-left: 10px;
     border-left: 1px solid #ffffff;
+    position: relative;
+    top: 1px;
 }
 
 .call-to-action {
