@@ -244,6 +244,15 @@ main {
     min-width: 270px;
 }
 
+#newsletter-submit {
+    background-color: #ff0000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 20px;
+    border: 0px;
+}
+
 .location-map {
     min-width: 100px;
     min-height: 300px;
