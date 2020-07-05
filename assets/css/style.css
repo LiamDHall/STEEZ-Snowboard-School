@@ -108,13 +108,13 @@ main {
 .call-to-action {
     float: right;
     margin-right: 45px;
+    padding: 0;
+    max-width: 122.8px;
 }
 
 .call-to-action a {
-    background-color: #ff0000;
-    border-radius: 5px;
     padding: 10px 20px;
-    color: #ffffff;
+    display: inline;
 }
 
 #header-navbar-collapse{
