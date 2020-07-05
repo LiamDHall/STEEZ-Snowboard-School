@@ -84,7 +84,7 @@ main {
     width: 100%;
     background-color: #ffffff;
     z-index: 2;
-    position: fixed
+    position: fixed;
 }
 
 .header-content {
