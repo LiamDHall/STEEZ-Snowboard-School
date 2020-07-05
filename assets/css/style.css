@@ -97,6 +97,7 @@ main {
     min-width: 330px;
     border-top: 60px solid #000000;
     border-right: 60px solid transparent;
+    filter: drop-shadow(4px -2px 4px #000000);
 }
 
 .logo-content {
