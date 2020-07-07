@@ -416,12 +416,11 @@ main {
 }
 
 .hero-text {
-    width: 75%;
     position: absolute;
-    left: 50%;
+    left: 5%;
     top: 50%;
-    transform: translate(-55%, -50%);
-    text-align: left;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .hero-text h3 {
