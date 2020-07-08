@@ -156,7 +156,7 @@ main {
     border-bottom: 2px solid #ff0000;
 }
 
-/*-------------------------------Mobile & Responsive: Nav & Site Header*/
+/*-------------------------------Site Header & Nav: Mobile & Responsive*/
 .navbar-toggler {
     padding: 10px;
     float: right;
@@ -354,7 +354,7 @@ main {
     padding: 5px 0;
 }
 
-/*-------------------------------Mobile & Responsive Footer (All Sections)*/
+/*-------------------------------Footer (All Sections): Mobile & Responsive*/
 @media screen and (max-width: 992px) {
     #newsletter-submit, #newsletter-email {
         width: 100%;
