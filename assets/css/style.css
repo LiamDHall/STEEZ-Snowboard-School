@@ -355,7 +355,7 @@ main {
 }
 
 /*-------------------------------Footer (All Sections): Mobile & Responsive*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     #newsletter-submit, #newsletter-email {
         width: 100%;
         min-width: 0px;
@@ -410,7 +410,7 @@ main {
     position: relative;
     height: 75vh;
     width: 100%;
-    background: url(../images/oliver-schwendener-9lcWCCRXiKU-unsplash) no-repeat center center;
+    background: url(../images/#) no-repeat center center;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
