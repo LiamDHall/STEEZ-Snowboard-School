@@ -422,11 +422,14 @@ main {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-.hero-text h3 {
     color: #ffffff;
 }
+
+.hero-text button {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 
 .highlight-discount {
     color: #ff0000;
@@ -439,12 +442,97 @@ main {
 }
 
 .hero-title {
-    color: #ffffff;
     font-weight: 700;
     font-size: 3.25rem;
 }
 
-.hero-text button {
-    margin-top: 20px;
-    margin-right: 20px;
+.hero-text h3 {
+    color: black;
+}
+
+.header-tag-line {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/*-------------------------------Hero: Mobile & Responsive*/
+@media screen and (max-width: 1024px) {
+    .hero-text button a{
+        width: 227px;
+    }
+
+    .hero-image {
+        background-position: 62% 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-line {
+        width: 325px;
+    }
+
+    .hero-text button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {   
+    .hero-image {
+        background-position: 70% 50%;
+    }
+
+    .hero-text {
+        width: 92%;
+    }
+
+    .hero-text h3, .hero-text h4 {
+        font-size: 1.25rem;
+        color: #ffffff;
+    }
+    
+    .hero-title {
+        font-size: 2.25rem;
+    }
+
+    .hero-line {
+        width: 205px;
+    }
+
+    .hero-text .header-tag-line {
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .hero-image {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/steez-snowboard-instructor-shredding.jpg);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-text h3, .hero-text h4 {
+        font-size: 1rem;
+    }
+
+    .hero-text .header-tag-line {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-text button, .hero-text button a{
+        width: 100%;
+    }
 }
