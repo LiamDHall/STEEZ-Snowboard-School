@@ -81,6 +81,10 @@ main {
     font-weight: 700;
 }
 
+.page-line {
+    width: 250px;
+}
+
 /*-------------------------------Site Header*/ 
 .site-header {
     width: 100%;
@@ -535,3 +539,13 @@ main {
     }
 }
 
+/*-------------------------------Page Header*/
+
+.page-header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.page-header h2, .page-header h3 {
+    margin-bottom: 22px;
+}
