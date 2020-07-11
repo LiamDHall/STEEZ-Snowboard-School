@@ -1,6 +1,29 @@
 /*-------------------------------Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
+/*-------------------------------Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk (NOT MY OWN CODE)*/ 
+/*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
+@media (min-width: 1025px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+/*-------------------------------(END of NOT MY CODE)*/
 /*-------------------------------Basic Structure*/ 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -52,30 +75,6 @@ ul {
 main {
     padding-top: 60px;
 }
-
-/*-------------------------------(NOT MY CODE) Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk */ 
-/*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
-@media (min-width: 1025px){
-    .navbar-expand-custom {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
-    .navbar-expand-custom .navbar-nav {
-        flex-direction: row;
-    }
-    .navbar-expand-custom .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem;
-    }
-    .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
-    }
-    .navbar-expand-custom .navbar-toggler {
-        display: none;
-    }
-}
-/*-------------------------------(END of NOT MY CODE)*/
 
 /*-------------------------------Site Header*/ 
 .site-header {
@@ -536,3 +535,4 @@ main {
         width: 100%;
     }
 }
+
