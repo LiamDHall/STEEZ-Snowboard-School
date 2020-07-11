@@ -76,6 +76,11 @@ main {
     padding-top: 60px;
 }
 
+.highlight {
+    color: #ff0000;
+    font-weight: 700;
+}
+
 /*-------------------------------Site Header*/ 
 .site-header {
     width: 100%;
@@ -427,12 +432,6 @@ main {
 .hero-text button {
     margin-top: 20px;
     margin-right: 20px;
-}
-
-
-.highlight-discount {
-    color: #ff0000;
-    font-weight: 700;
 }
 
 .hero-line {
