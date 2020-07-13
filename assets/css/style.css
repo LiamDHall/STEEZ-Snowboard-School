@@ -29,7 +29,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     color:#000000;
-    background: #e2e2e2;
+    background: #ffffff;
     font-size: 1rem;
 }
 
@@ -549,3 +549,4 @@ main {
 .page-header h2, .page-header h3 {
     margin-bottom: 22px;
 }
+
