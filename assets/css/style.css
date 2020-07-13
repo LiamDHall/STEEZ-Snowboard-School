@@ -33,6 +33,11 @@ body {
     font-size: 1rem;
 }
 
+.row {
+    width: 92%;
+    margin: 0 auto;
+}
+
 a, a:hover {
     text-decoration: none;
     color: inherit;
@@ -266,8 +271,6 @@ main {
 }
 
 .footer-content {
-    width: 92%;
-    margin: 0 auto;
     padding-top: 30px;
     height: 400px;
 }
@@ -304,8 +307,6 @@ main {
 
 /*-------------------------------Social*/
 .social-container {
-    width: 92%;
-    margin: 0 auto;
     height: 150px;
 }
 
@@ -549,4 +550,3 @@ main {
 .page-header h2, .page-header h3 {
     margin-bottom: 22px;
 }
-
