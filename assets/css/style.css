@@ -66,6 +66,7 @@ button a {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+    width: 168px;
 }
 
 ul {
@@ -540,7 +541,6 @@ main {
 }
 
 /*-------------------------------Page Header*/
-
 .page-header {
     margin-top: 50px;
     text-align: center;
