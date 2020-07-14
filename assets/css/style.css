@@ -550,3 +550,62 @@ main {
 .page-header h2, .page-header h3 {
     margin-bottom: 22px;
 }
+
+/*-------------------------------Lessons*/
+.lessons {
+    margin-top: 75px;
+    height: 600px;
+}
+
+.lessons .col-12 {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.lesson-container {
+    width: 55%;
+    position: absolute;
+    left: 95px;
+}
+
+.lesson-background {
+    transform: skew(-15deg);
+    background-color: #e2e2e2;
+    height: 600px;
+    max-width: 1400px;
+}
+
+.lesson-content {
+    transform: skew(15deg);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.price {
+    width: 100%; 
+    transform: skew(-15deg);
+    color: #ffffff;
+    background-color: #ff0000;
+    margin: 20px 0;
+}
+
+.price h4 {
+    padding: 5px 0;
+    transform: skew(15deg)
+}
+
+.lesson-info {
+    list-style: none;
+}
+
+.lesson-content button {
+    margin: 20px 0 0 20px;
+}
+
+.lessons img {
+    width: 1000px;
+    height: 600px;
+    float: right;
+}
