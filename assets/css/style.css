@@ -558,6 +558,12 @@ main {
 }
 
 /*-------------------------------Lessons*/
+#target-lessons{
+    visibility: hidden;
+    position: relative;
+    top: -60px;
+}
+
 .lessons {
     margin-top: 75px;
     height: 600px;
