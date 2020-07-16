@@ -574,30 +574,53 @@ main {
     margin: 0 auto;
 }
 
+.lessons img {
+    width: 50%;
+    height: 600px;
+    float: right;
+    max-width: 1000px;
+    min-width: 700px;
+}
+
 .lesson-container {
-    width: 55%;
+    max-width: 950px;
+    width: 60%;
+    min-width: 480px;
+    height: 600px;
     position: absolute;
-    left: 95px;
+    left: 50px;
 }
 
 .lesson-background {
-    transform: skew(-15deg);
+    transform: skew(-10deg);
     background-color: #e2e2e2;
-    height: 600px;
-    max-width: 1400px;
+    height: 100%;
+    width: 100%;
 }
 
 .lesson-content {
-    transform: skew(15deg);
-    width: 60%;
-    margin: 0 auto;
     text-align: center;
-    padding: 70px 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 85%;
+    margin: 0 auto;
+    
+
+}
+
+.lesson-content h3, 
+.lesson-content h4,
+.lesson-content p,
+.lesson-info,
+.price h4,
+.lesson-content button{
+    transform: skew(10deg);
 }
 
 .price {
     width: 100%; 
-    transform: skew(-15deg);
     color: #ffffff;
     background-color: #ff0000;
     margin: 20px 0;
@@ -605,7 +628,6 @@ main {
 
 .price h4 {
     padding: 5px 0;
-    transform: skew(15deg)
 }
 
 .lesson-info {
@@ -613,11 +635,5 @@ main {
 }
 
 .lesson-content button {
-    margin: 20px 0 0 20px;
-}
-
-.lessons img {
-    width: 1000px;
-    height: 600px;
-    float: right;
+    margin: 20px 10px;
 }
