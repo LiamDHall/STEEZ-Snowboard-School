@@ -63,15 +63,18 @@ button {
     color: #ffffff;
     padding: 0;
     border-radius: 5px;
+    width: 200px;
+    text-transform: uppercase;
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: 500;
 }
 
 button a {
-    background-color: #ff0000;
     padding: 13px 20px;
-    border-radius: 5px;
     display: inline-block;
-    text-align: center;
-    width: 168px;
+    width: 100%;
+
 }
 
 ul {
@@ -421,7 +424,7 @@ main {
     position: relative;
     height: 75vh;
     width: 100%;
-    background: url(../images/steez-snowboard-instructor-shredding.jpg) no-repeat center center;
+    background: url(../images/#) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -546,7 +549,7 @@ main {
     margin-top: 50px;
     text-align: center;
 }
-.page-header h2, {
+.page-header h2 {
     padding-top: 25px;
 }
 
