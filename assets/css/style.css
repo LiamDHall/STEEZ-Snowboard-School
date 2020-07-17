@@ -43,14 +43,6 @@ a, a:hover {
     color: inherit;
 }
 
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.25rem;
-}
-
 hr {
     border: 1px solid #000000;
     width: 50%;
@@ -60,25 +52,6 @@ input {
     border: 0px;
     border-radius: 5px;
     padding-left: 15px;
-}
-
-button {
-    border: 0;
-    color: #ffffff;
-    padding: 0;
-    border-radius: 5px;
-    width: 200px;
-    text-transform: uppercase;
-    background-color: #ff0000;
-    text-align: center;
-    font-weight: 500;
-}
-
-button a {
-    padding: 13px 20px;
-    display: inline-block;
-    width: 100%;
-
 }
 
 ul {
@@ -96,6 +69,35 @@ main {
 
 .page-line {
     width: 250px;
+}
+
+/*--Headers--*/
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem
+}
+
+/*--Buttons--*/
+button {
+    border: 0;
+    color: #ffffff;
+    padding: 0;
+    border-radius: 5px;
+    width: 200px;
+    text-transform: uppercase;
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: 500;
+}
+
+button a {
+    padding: 13px 20px;
+    display: inline-block;
+    width: 100%;
+
 }
 
 /*-------------------------------Site Header*/ 
