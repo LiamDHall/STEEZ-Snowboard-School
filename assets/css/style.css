@@ -146,12 +146,13 @@ main {
     float: right;
     margin-right: 45px;
     padding: 0;
-    max-width: 122.8px;
+    max-width: 150px;
+    position: relative;
+    top: -10px;
 }
 
 .call-to-action a {
     padding: 10px 20px;
-    display: inline;
 }
 
 #header-navbar-collapse{
@@ -184,6 +185,7 @@ main {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 40px;
 }
 
 @media screen and (max-width: 1024px) {
