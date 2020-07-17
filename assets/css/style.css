@@ -640,5 +640,6 @@ main {
 }
 
 .lesson-content button {
-    margin: 20px 10px;
+    margin: 20px 10px 0;
+    width: 45%;
 }
