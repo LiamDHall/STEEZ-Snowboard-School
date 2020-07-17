@@ -648,6 +648,7 @@ button a {
 
 .lesson-info {
     list-style: none;
+    text-align: left;
 }
 
 .lesson-content button {
