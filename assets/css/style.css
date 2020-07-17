@@ -47,6 +47,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4 {
+    font-size: 1.25rem;
+}
+
 hr {
     border: 1px solid #000000;
     width: 50%;
@@ -551,6 +555,7 @@ main {
     margin-top: 50px;
     text-align: center;
 }
+
 .page-header h2 {
     padding-top: 25px;
 }
@@ -622,6 +627,10 @@ main {
 .price h4,
 .lesson-content button{
     transform: skew(10deg);
+}
+
+.lesson-content h3 {
+    font-weight: 700;
 }
 
 .price {
