@@ -589,7 +589,7 @@ button a {
     height: 600px;
 }
 
-.lessons .col-12 {
+.lesson-container {
     max-width: 1700px;
     margin: 0 auto;
 }
@@ -603,7 +603,7 @@ button a {
     background-position: 100% 75%;
 }
 
-.lesson-container {
+.lesson-card {
     max-width: 950px;
     width: 60%;
     min-width: 480px;
