@@ -281,6 +281,7 @@ button a {
 /*-------------------------------Footer*/
 .footer-container {
     background-color: #c4c4c4;
+    margin-top: 100px;
 }
 
 .footer-content {
