@@ -590,12 +590,13 @@ button a {
     margin: 0 auto;
 }
 
-.lessons img {
-    width: 50%;
+.lesson-image {
+    width: 60%;
     height: 600px;
     float: right;
-    max-width: 1000px;
-    min-width: 700px;
+    background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: 100% 75%;
 }
 
 .lesson-container {
@@ -622,8 +623,6 @@ button a {
     transform: translateY(-50%);
     width: 85%;
     margin: 0 auto;
-    
-
 }
 
 .lesson-content h3, 
