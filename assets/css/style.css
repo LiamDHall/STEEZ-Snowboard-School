@@ -561,10 +561,11 @@ button a {
 .page-header, .homepage-header {
     margin-top: 50px;
     text-align: center;
+    max-width: 92%;
 }
 
 .page-header h2 {
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .page-header h2, 
