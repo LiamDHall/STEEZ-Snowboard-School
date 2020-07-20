@@ -474,7 +474,7 @@ button a {
 
 /*-------------------------------Hero: Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
-    .hero-text button a{
+    .hero-text button {
         width: 227px;
     }
 
