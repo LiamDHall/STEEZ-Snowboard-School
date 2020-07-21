@@ -623,6 +623,29 @@ button a {
     float: right;
 }
 
+.image-corner-right, .image-corner-left {
+    width: 0;
+    height: 0;
+    border-bottom: 600px solid;
+    position: absolute;
+    bottom: 0;
+}
+
+.image-corner-right {
+    right: 0;
+    border-left: 95px solid transparent;
+}
+
+.image-corner-left {
+    left: 0;
+    border-right: 95px solid transparent;
+}
+
+.corner-white {
+    border-bottom-color: white;
+}
+
+
 /*--lesson Card--*/
 .lesson-card {
     max-width: 860px;
@@ -740,6 +763,10 @@ button a {
         width: 100%;
         float: none;
         background-position: 80% 75%;
+    }
+
+    .image-corner-right, .image-corner-left {
+        display: none;
     }
 }
 
