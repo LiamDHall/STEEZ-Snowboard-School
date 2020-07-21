@@ -584,7 +584,7 @@ button a {
     top: -60px;
 }
 
-.lessons {
+.lesson {
     margin-top: 75px;
 }
 
@@ -595,26 +595,53 @@ button a {
     padding: 0;
 }
 
+/*--Lesson Transformations--*/
+.left-skew,
+.right-realign {
+    transform: skew(-10deg);
+}
+
+.right-skew,
+.left-realign {
+    transform: skew(10deg);
+}
+
+/*--Lesson Image--*/
 .lesson-image {
     width: 60%;
     height: 600px;
-    float: right;
     background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
     background-size: cover;
     background-position: 100% 75%;
 }
 
+.lesson-image-left {
+    float: left;
+}
+
+.lesson-image-right {
+    float: right;
+}
+
+/*--lesson Card--*/
 .lesson-card {
     max-width: 860px;
     width: 45%;
     height: 600px;
-    position: absolute;
-    left: 50px;
     min-width: 375px;
 }
 
+.lesson-card-left {
+    position: absolute;
+    left: 50px;
+}
+
+.lesson-card-right {
+    position: absolute;
+    right: 50px;
+}
+
 .lesson-background {
-    transform: skew(-10deg);
     background-color: #e2e2e2;
     height: 100%;
     width: 100%;
@@ -631,28 +658,20 @@ button a {
     
 }
 
-.lesson-content h3, 
-.lesson-content h4,
-.lesson-content p,
-.lesson-info,
-.price h4,
-.lesson-content button{
-    transform: skew(10deg);
-}
-
 .lesson-content h3 {
     font-weight: 700;
     font-size: 1.75rem;
 }
 
-.price {
+.price-strip {
     width: 100%; 
     color: #ffffff;
     background-color: #ff0000;
     margin: 20px 0;
 }
 
-.price h4 {
+.price-left, 
+.price-right {
     padding: 5px 0;
 }
 
@@ -676,12 +695,30 @@ button a {
 
 /*-------------------------------Lessons: Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
-    .lesson-content button {
+    .lesson-cta {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 992px) {
+    .mobile-skew {
+        transform: skewY(-10deg);
+    }
+
+    .mobile-realign {
+        transform: skew(10deg) rotate(10deg);
+    }
+
+    .price-strip-left,
+    .price-strip-right {
+        transform: rotate(10deg);
+    }
+
+    .price-left,
+    .price-right {
+        transform: skew(10deg);
+    }
+
     .lesson-card {
         position: relative;
         top: -315px;
@@ -695,10 +732,6 @@ button a {
         min-width: 0px;
     }
 
-    .lesson-background {
-        transform: skewY(-10deg);
-    }
-
     .lesson-image {
         position: absolute;
         bottom: 0px;
@@ -707,23 +740,6 @@ button a {
         width: 100%;
         float: none;
         background-position: 80% 75%;
-    }
-
-    .lesson-content h3, 
-    .lesson-content h4,
-    .lesson-content p,
-    .lesson-info,
-    .lesson-content button {
-        transform: skew(10deg) rotate(10deg);
-    }
-
-    .lesson-content .page-line,
-    .price {
-        transform: rotate(10deg);
-    }
-
-    .price h4 {
-        transform: skew(5deg);
     }
 }
 
