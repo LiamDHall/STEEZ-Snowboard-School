@@ -607,12 +607,6 @@ button a {
 }
 
 /*--Lesson Image--*/
-.lesson-image {
-    width: 60%;
-    height: 600px;
-    background-size: cover;
-}
-
 .beginner-image {
     background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
     background-position: 100% 75%;
@@ -646,6 +640,12 @@ button a {
     float: right;
 }
 
+.lesson-image {
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+}
+
 .image-corner-right, .image-corner-left {
     width: 0;
     height: 0;
@@ -669,7 +669,7 @@ button a {
 }
 
 
-/*--lesson Card--*/
+/*--Lesson Card--*/
 .lesson-card {
     max-width: 860px;
     width: 45%;
