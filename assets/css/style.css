@@ -610,8 +610,31 @@ button a {
 .lesson-image {
     width: 60%;
     height: 600px;
-    background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.beginner-image {
+    background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
+    background-position: 100% 75%;
+}
+
+.intermediate-image {
+    background: url(../images/#) no-repeat center center;
+    background-position: 100% 75%;
+}
+
+.expert-image {
+    background: url(../images/#) no-repeat center center;
+    background-position: 100% 75%;
+}
+
+.park-image {
+    background: url(../images/#) no-repeat center center;
+    background-position: 100% 75%;
+}
+
+.back-country-image {
+    background: url(../images/#) no-repeat center center;
     background-position: 100% 75%;
 }
 
