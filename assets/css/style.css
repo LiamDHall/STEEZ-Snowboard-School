@@ -739,6 +739,13 @@ button a {
     width: 45%;
 }
 
+.arrow {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
 /*-------------------------------Lessons: Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
     .lesson-cta {
