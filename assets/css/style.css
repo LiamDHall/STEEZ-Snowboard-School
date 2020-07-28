@@ -821,3 +821,102 @@ button a {
         width: 92%;
     }
 }
+
+/*-------------------------------Review*/
+#target-reviews{
+    visibility: hidden;
+    position: relative;
+    top: -60px;
+}
+
+/*--Review Buttons--*/
+.carousel-indicators {
+    position: static;
+    margin: 0 auto;
+    width: 92%;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators li{
+    color: #000000;
+    background: transparent;
+    width: auto;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    text-indent: 0;
+    opacity: 1;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    border-top: none;
+}
+
+.carousel-indicators li:hover {
+    color: #ff0000;
+}
+
+.carousel-indicators .active {
+    border-color: #ff0000;
+}
+
+.carousel-inner {
+
+    margin: 0 auto;
+    background: transparent;
+}
+
+.carousel-inner .active{
+    border: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-control-next:focus,
+.carousel-control-prev:focus {
+    color: #000000;
+    opacity: 1;
+    width: 10%;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    color: #ff0000;
+}
+
+.review-arrow {
+    font-size: 30px;
+}
+
+/*--Review Content--*/
+.carousel-item {
+    width: 80%;
+    left: 10%;
+    margin-top: 50px;
+}
+
+.review-card {
+    margin-top: 50px;
+}
+
+.review-card:first-child {
+    margin-top: 0px;
+}
+
+.review-stars {
+    color: #ff0000;
+    width: 100%;
+    font-size: 27px;
+    padding: 8px 0 16px;
+}
+
+.review-info {
+    margin: 0;
+}
+
+/*-------------------------------Review: Mobile & Responsive*/
+@media screen and (max-width: 1024px) {
+    .active {
+        background: transparent;
+    }
+}
