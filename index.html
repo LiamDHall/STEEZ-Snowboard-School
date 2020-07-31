@@ -242,6 +242,7 @@
                     </div>
                 </div>
             </section>
+
             <!--Lesson Reviews-->
             <div id="target-lessons-reviews"></div>
             <section>
@@ -250,7 +251,7 @@
                     <hr class="page-line">
                     <h2>Read what our customers have to say about us.</h2>
                 </header>
-                <!--Bootstrap Carousel (NOT ALL MY OWN CODE) Adapted For My Needs-->
+                <!--Bootstrap Carousel-->
                 <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel" data-pause="hover">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><h3>Lastest</h3></li>
@@ -260,9 +261,67 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"><h3>Park</h3></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="5"><h3>Back Country</h3></li>
                     </ol>
-                    <div class="carousel-inner">
 
-                        <!--Latest Reviews-->
+                    <!--Submit Review--Bootstrap Collapse-->
+                    <button class="reivew-collapse-button" type="button" data-toggle="collapse" data-target="#collapse-sumbit-review" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                        Leave A Review
+                    </button>
+                    <div class="collapse" id="collapse-sumbit-review">
+                        <section id="lesson-submit-review">
+                            <header class="page-header">
+                                <h2>Help others out by letting them know how you got on.</h2>
+                                <p>All fields with a <span class="highlight">*</span> are required.</p>
+                            </header>
+                            <form id="submit-form">
+                                <div class="row form-row">
+                                    <div class="form-divider col-12 col-lg-6">
+                                        <label for="first-name">First Name <span class="highlight">*</span></label>
+                                        <input type="text" name="first-name" id="first-name" placeholder="First Name" maxlength="25" required>
+                                    </div>
+                                    <div class="form-divider col-12 col-lg-6">
+                                        <label for="label-name">Last Name <span class="highlight">*</span></label>
+                                        <input type="text" name="last-name" id="last-name" placeholder="Last Name" maxlength="25" required>
+                                    </div>
+                                    <div class="form-divider col-12">
+                                        <label for="review-email">Email Address <span class="highlight">*</span></label>
+                                        <input type="email" name="review-email" id="review-email" placeholder="Type your email addreess here." required>
+
+                                        <label for="lesson-selector">Which lesson did you take? <span class="highlight">*</span></label>
+                                        <select id="lesson-selector" name="review-lesson" size="1" alt="dropdown menu to select a lesson" required>
+                                            <option value="beginner">Beginner</option>
+                                            <option value="intermediate">Intermediate</option>
+                                            <option value="expert">Expert</option>
+                                            <option value="park">Park</option>
+                                            <option value="back-country">Back Country</option>
+                                        </select>
+                                        
+                                        <label for="test">How did we do? <span class="highlight">*</span></label>
+                                        <div class="star-rating">
+                                            <input type="radio" name="star-rating" value="5-star" id="5-stars" alt="5 stars" required>
+                                            <label for="5-stars"><i class="far fa-star"></i></label>
+                                            <input type="radio" name="star-rating" value="4-star" id="4-stars" alt="4 stars">
+                                            <label for="4-stars"><i class="far fa-star"></i></label>
+                                            <input type="radio" name="star-rating" value="3-star" id="3-stars" alt="3 stars">
+                                            <label for="3-stars"><i class="far fa-star"></i></label>
+                                            <input type="radio" name="star-rating" value="2-star" id="2-stars" alt="2 stars">
+                                            <label for="2-stars"><i class="far fa-star"></i></label>
+                                            <input type="radio" name="star-rating" value="1-star" id="1-stars" alt="1 stars">
+                                            <label for="1-stars"><i class="far fa-star"></i></label>
+                                        </div>
+                                        
+                                        <label for="review-tagline">Your First Thoughts <span class="form-input-info">Max 40 charaters.</span></label>
+                                        <input type="text" name="review-tagline" id="review-tagline" placeholder="In a few words tell us your first thoughts" maxlength="40">
+                                        <label for="review-text">What did you think of the lesson? <span class="form-input-info">Max 500 charaters.</span></label>
+                                        <textarea name="review-text" id="review-text" rows="15" placeholder="Tell us how you got on." maxlength="500"></textarea>
+                                        <input type="submit" class="button" id="review-submit" value="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    
+                    <!--Latest Reviews-->
+                    <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="review-card col-12">
@@ -554,7 +613,6 @@
                     </div>
                 </div>
             </section>
-            <!--(END of NOT ALL MY OWN CODE)-->
         </main>
         <!--Footer-->
         <footer class="footer-container">
