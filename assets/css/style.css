@@ -33,6 +33,10 @@ body {
     font-size: 1rem;
 }
 
+section {
+    padding-top: 100px;
+}
+
 .row {
     width: 92%;
     margin: 0 auto;
@@ -447,11 +451,15 @@ button a {
 }
 
 /*-------------------------------Landing Page (Lessons) Hero Image*/
+.hero {
+    padding-top: 0;
+}
+
 .hero-image {
     position: relative;
     height: 75vh;
     width: 100%;
-    background: url(../images/#) no-repeat center center;
+    background: url(../images/steez-snowboard-instructor-shredding.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -601,8 +609,12 @@ button a {
 }
 
 /*-------------------------------Lessons*/
+.lessons-hompage {
+    padding-top: 50px;
+}
+
 .lesson {
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 .lesson-container {
@@ -610,6 +622,13 @@ button a {
     margin: 0 auto;
     width: 100%;
     padding: 0;
+}
+
+.arrow {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
 }
 
 /*--Lesson Transformations--*/
@@ -754,13 +773,6 @@ button a {
 .lesson-content button {
     margin: 20px auto 0;
     width: 45%;
-}
-
-.arrow {
-    margin-top: 75px;
-    text-align: center;
-    font-size: 40px;
-    width: 100%;
 }
 
 /*-------------------------------Lessons: Mobile & Responsive*/
@@ -939,6 +951,15 @@ button a {
 #lesson-submit-review {
     background: #e2e2e2;
     padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+#lesson-submit-review h2 {
+    margin-bottom: 50px;
+}
+
+.carousel-inner {
+    padding-top: 50px;
 }
 
 .form-row {
