@@ -922,6 +922,10 @@ button a {
     margin: 0 auto;
 }
 
+.reivew-collapse-button:focus {
+    outline: none;
+}
+
 #lesson-submit-review {
     background: #e2e2e2;
     padding-bottom: 100px;
