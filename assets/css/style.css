@@ -74,6 +74,12 @@ main {
     max-width: 250px;
 }
 
+.link-target {
+    visibility: hidden;
+    position: relative;
+    top: -60px;
+}
+
 /*--Headers--*/
 h3 {
     font-size: 1.5rem;
@@ -579,12 +585,6 @@ button a {
 }
 
 /*-------------------------------Lessons*/
-#target-lessons{
-    visibility: hidden;
-    position: relative;
-    top: -60px;
-}
-
 .lesson {
     margin-top: 75px;
 }
@@ -824,12 +824,6 @@ button a {
 }
 
 /*-------------------------------Review*/
-#target-reviews{
-    visibility: hidden;
-    position: relative;
-    top: -60px;
-}
-
 /*--Review Buttons--*/
 .carousel-indicators {
     position: static;
