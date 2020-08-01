@@ -54,13 +54,6 @@ hr {
     color:#000000;
 }
 
-input {
-    border: 0px;
-    border-radius: 5px;
-    padding-left: 15px;
-    height: 50px;
-}
-
 ul {
     margin-bottom: 0;
 }
@@ -119,6 +112,39 @@ button a {
     display: inline-block;
     width: 100%;
 
+}
+
+/*--Form--*/
+
+input {
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 50px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.valid-feedback,
+.invalid-feedback {
+    padding: 5px 15px 0 15px;
+    font-size: 1rem;
+}
+
+.star-feedback {
+    position: absolute;
+    margin-left: 210px;
+    width: 55%;
+}
+
+@media screen and (max-width: 768px) {
+    .star-feedback {
+        margin-left: 0px;
+        margin-top: 45px;
+        width: 100%;
+    }
 }
 
 /*-------------------------------Site Header*/ 

@@ -263,22 +263,40 @@
                             <h2>Help others out by letting them know how you got on.</h2>
                             <p>All fields with a <span class="highlight">*</span> are required.</p>
                         </header>
-                        <form id="submit-form" action="https://formdump.codeinstitute.net/" method="post">
+                        <form id="submit-form" class="needs-validation" action="https://formdump.codeinstitute.net/" target="_blank" method="post"  novalidate>
                             <div class="row form-row">
                                 <div class="form-divider col-12 col-lg-6">
                                     <label for="first-name">First Name <span class="highlight">*</span></label>
-                                    <input type="text" name="first-name" id="first-name" placeholder="First Name" maxlength="25" required>
+                                    <input type="text" name="first-name" class="form-control" id="first-name" placeholder="First Name" maxlength="25" required>
+                                    <div class="valid-feedback">
+                                        Looking good
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Missing name or name too long max 25 charaters!
+                                    </div>
                                 </div>
                                 <div class="form-divider col-12 col-lg-6">
                                     <label for="label-name">Last Name <span class="highlight">*</span></label>
-                                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" maxlength="25" required>
+                                    <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Last Name" maxlength="25" required>
+                                    <div class="valid-feedback">
+                                        Looking good
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Missing name or name too long max 25 charaters!
+                                    </div>
                                 </div>
                                 <div class="form-divider col-12">
                                     <label for="review-email">Email Address <span class="highlight">*</span></label>
-                                    <input type="email" name="review-email" id="review-email" placeholder="Type your email addreess here." required>
+                                    <input type="email" name="review-email" class="form-control" id="review-email" placeholder="Type your email addreess here." required>
+                                    <div class="valid-feedback">
+                                        Looking good
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email!
+                                    </div>
 
                                     <label for="lesson-selector">Which lesson did you take? <span class="highlight">*</span></label>
-                                    <select id="lesson-selector" name="review-lesson" size="1" alt="dropdown menu to select a lesson" required>
+                                    <select id="lesson-selector" name="review-lesson" class="form-control" size="1" alt="dropdown menu to select a lesson" required>
                                         <option value="beginner">Beginner</option>
                                         <option value="intermediate">Intermediate</option>
                                         <option value="expert">Expert</option>
@@ -296,15 +314,21 @@
                                         <label for="3-stars"><i class="far fa-star"></i></label>
                                         <input type="radio" name="star-rating" value="2-star" id="2-stars" alt="2 stars">
                                         <label for="2-stars"><i class="far fa-star"></i></label>
-                                        <input type="radio" name="star-rating" value="1-star" id="1-stars" alt="1 stars">
+                                        <input type="radio" name="star-rating" class="form-control" value="1-star" id="1-stars" alt="1 stars">
                                         <label for="1-stars"><i class="far fa-star"></i></label>
+                                        <div class="valid-feedback star-feedback">
+                                            Looking good
+                                        </div>
+                                        <div class="invalid-feedback star-feedback">
+                                            Please select a star rating!
+                                        </div>
                                     </div>
                                     
                                     <label for="review-tagline">Your First Thoughts <span class="form-input-info">Max 40 charaters.</span></label>
-                                    <input type="text" name="review-tagline" id="review-tagline" placeholder="In a few words tell us your first thoughts" maxlength="40">
+                                    <input type="text" name="review-tagline" class="form-control" id="review-tagline" placeholder="In a few words tell us your first thoughts" maxlength="40">
                                     <label for="review-text">What did you think of the lesson? <span class="form-input-info">Max 500 charaters.</span></label>
-                                    <textarea name="review-text" id="review-text" rows="15" placeholder="Tell us how you got on." maxlength="500"></textarea>
-                                    <input type="submit" class="button" id="review-submit" value="Submit">
+                                    <textarea name="review-text" class="form-control" id="review-text" rows="15" placeholder="Tell us how you got on." maxlength="500"></textarea>
+                                    <input type="submit" class="button control" id="review-submit" value="Submit">
                                 </div>
                             </div>
                         </form>
@@ -626,8 +650,11 @@
                     <p>Sign up to our newletter today and get up to date on everything 
                     STEEZ as well as grabbing yourself a great deal on lessons and camps!</p>
                     <div class="footer-cta">
-                        <form id="newsletter-sign-up" action="https://formdump.codeinstitute.net/" method="post">
+                        <form id="newsletter-sign-up" class="needs-validation" action="https://formdump.codeinstitute.net/" method="post" novalidate>
                             <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email addreess here." required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email!
+                            </div>
                             <input type="submit" class="button" id="newsletter-submit" value="Sign Up">
                         </form>
                     </div>
@@ -688,5 +715,26 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!--Bootstrap Form Validation-->
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+                });
+            }, false);
+            })();
+        </script>
     </body>
 </html>
