@@ -949,6 +949,7 @@ footer {
     margin: 0;
 }
 
+
 /*-------------------------------Submit Review Form*/
 .reivew-collapse-button {
     display: block;
@@ -1013,10 +1014,6 @@ footer {
     height: 50px;
 }
 
-#review-text {
-    padding: 
-}
-
 .form-input-info {
     float: right;
     padding-right: 15px;
@@ -1075,9 +1072,48 @@ footer {
     opacity: 1;
 }
 /*--(END OF NOT MY OWN CODE)--*/
-/*-------------------------------Review: Mobile & Responsive*/
+/*-------------------------------Review (All Sections): Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
     .active {
         background: transparent;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel ol {
+        display: block;
+        text-align: center;
+    }
+
+    .carousel li {
+        padding: 20px 0;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .carousel li h3{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .form-row {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .form-input-info {
+        float: none;
+        display: block;
+        padding-top: 5px;
     }
 }
