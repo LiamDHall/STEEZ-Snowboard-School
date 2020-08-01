@@ -298,44 +298,64 @@ button a {
 }
 
 /*-------------------------------Footer*/
-.footer-container {
+footer {
     background-color: #c4c4c4;
     margin-top: 100px;
+    padding-top: 50px;
 }
 
-.footer-content {
-    padding-top: 30px;
-    height: 400px;
+.footer-container hr {
+    width: 99%;
+    max-width: none;
 }
 
-.newsletter {
-    text-align: center;
-    margin: auto 0;
+.newsletter,
+.footer-location,
+.footer-map {
+    position: relative;
+    max-height: 370px;
+}
+
+.footer-cta{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    padding: 0 15px;
+}
+
+.footer-cta button {
+    width: 100%;
+}
+
+.footer-location p {
+    margin-bottom: 0px;
+}
+
+.footer-cta button:last-child {
+    margin-top: 20px;
 }
 
 #newsletter-email {
-    width: 70%;
-    height: 40px;
-    min-width: 270px;
+    width: 100%;
 }
 
 #newsletter-submit {
     background-color: #ff0000;
     border-radius: 5px;
     color: #ffffff;
-    height: 40px;
+    width: 100%;
+    height: 50px;
     padding: 0 20px;
     border: 0px;
+    margin-top: 20px;
 }
 
 .location-map {
     min-width: 100px;
     min-height: 300px;
-    margin: auto;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-top: 24px;
 }
 
 /*-------------------------------Social*/
@@ -399,34 +419,26 @@ button a {
 }
 
 /*-------------------------------Footer (All Sections): Mobile & Responsive*/
-@media screen and (max-width: 1024px) {
-    #newsletter-submit, #newsletter-email {
-        width: 100%;
-        min-width: 0px;
-    }
-
-    #newsletter-submit {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 992px) {
     .footer-content {
-        height: 100%;
+        margin-top: 50px; 
     }
 
+    .footer-cta {
+        position: static;
+        padding: 0;
+    }
+    
     .newsletter {
-         padding-top: 20px;
+        margin-top: 0px;
+    }
+
+    .footer-location p {
+        margin-bottom: 16px;
     }
 
     .social ul li {
         padding: 0 30px;
-    }
-
-    .location-map {
-        padding: 60px 0 20px;
-        transform: translateY(0%)
     }
 }
 
