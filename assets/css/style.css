@@ -869,7 +869,7 @@ footer {
     position: static;
     margin: 0 auto;
     width: 92%;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .carousel-indicators li{
@@ -896,7 +896,6 @@ footer {
 }
 
 .carousel-inner {
-
     margin: 0 auto;
     background: transparent;
 }
@@ -969,10 +968,6 @@ footer {
 
 #lesson-submit-review h2 {
     margin-bottom: 50px;
-}
-
-.carousel-inner {
-    padding-top: 50px;
 }
 
 .form-row {
