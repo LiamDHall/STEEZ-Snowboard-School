@@ -77,6 +77,16 @@ main {
     top: -60px;
 }
 
+.mobile-break {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .mobile-break {
+        display: block;
+    }
+}
+
 /*--Headers--*/
 h1 {
     font-size: 2rem;
