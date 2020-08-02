@@ -954,6 +954,7 @@ footer {
     color: #000000;
     opacity: 1;
     width: 10%;
+    background-color: #ffffff;
 }
 
 .carousel-control-next:hover,
