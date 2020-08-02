@@ -704,23 +704,29 @@ footer {
 }
 
 .intermediate-image {
-    background: url(../images/#) no-repeat center center;
-    background-position: 100% 75%;
+    background: url(../images/intermediate-students-hitting-the-piste.jpg) no-repeat center center;
+    background-position: 30% 60%;
 }
 
 .expert-image {
-    background: url(../images/#) no-repeat center center;
-    background-position: 100% 75%;
+    background: url(../images/expert-snowboarder-carving.jpg) no-repeat center center;
+    background-position: 10% 50%;
 }
 
 .park-image {
-    background: url(../images/#) no-repeat center center;
-    background-position: 100% 75%;
+    background: url(../images/steez-student-snowboarder-hitting-a-kicker.jpg) no-repeat center center;
+    background-position: 50% 60%;
 }
 
 .back-country-image {
-    background: url(../images/#) no-repeat center center;
-    background-position: 100% 75%;
+    background: url(../images/snowboarders-reaching-peak.jpg) no-repeat center center;
+    background-position: 80% 50%;
+}
+
+.lesson-image {
+    width: 57%;
+    height: 600px;
+    background-size: cover;
 }
 
 .lesson-image-left {
@@ -729,12 +735,6 @@ footer {
 
 .lesson-image-right {
     float: right;
-}
-
-.lesson-image {
-    width: 60%;
-    height: 600px;
-    background-size: cover;
 }
 
 .image-corner-right, .image-corner-left {
@@ -839,34 +839,54 @@ footer {
 
 @media screen and (max-width: 992px) {
     .mobile-skew {
-        transform: skewY(-10deg);
+        transform: skewY(-5deg);
     }
 
     .mobile-realign {
-        transform: skew(10deg) rotate(10deg);
+        transform: skew(5deg) rotate(5deg);
     }
 
     .price-strip-left,
     .price-strip-right {
-        transform: rotate(10deg);
+        transform: rotate(5deg);
     }
 
     .price-left,
     .price-right {
-        transform: skew(10deg);
+        transform: skew(5deg);
     }
 
     .lesson-card {
         position: relative;
-        top: -315px;
+        top: -460px;
+        margin-top: 460px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        margin-top: 315px;
         min-height: 775px;
         max-width: 100%;
         z-index: 2;
         min-width: 0px;
+    }
+
+    .beginner-image {
+        background-position: 80% 100%;
+    }
+
+    .intermediate-image {
+        background-position: 25% 20%;
+    }
+
+    .expert-image {
+        background-position: 25% 30%;
+    }
+
+    .park-image {
+        background-position: 45% 0%;
+    }
+
+    .back-country-image {
+        background-position: 75% 50%;
     }
 
     .lesson-image {
@@ -876,7 +896,7 @@ footer {
         height: 45%;
         width: 100%;
         float: none;
-        background-position: 80% 75%;
+        background-size: cover; 
     }
 
     .image-corner-right, .image-corner-left {
