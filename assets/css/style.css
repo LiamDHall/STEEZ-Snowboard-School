@@ -497,7 +497,7 @@ footer {
     position: relative;
     height: 75vh;
     width: 100%;
-    background: url(../images/steez-snowboard-instructor-shredding.jpg) no-repeat center center;
+    background: url(../images/#) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -633,9 +633,15 @@ footer {
 }
 
 .page-header h3,
-.homepage-header h2,
-.homepage-header h3 {
+.homepage-header h2 {
     padding-bottom: 50px;
+}
+ 
+
+.homepage-header .highlight,
+.homepage-header h3,
+.homepage-header p {
+    padding-bottom: 25px;
 }
 
 .page-header h2 {
