@@ -245,7 +245,7 @@ input {
     background-color: #ff0000;
 }
 
-.active {
+.header-navbar .active {
     border-bottom: 2px solid #ff0000;
 }
 
@@ -296,7 +296,7 @@ input {
         display: none;
     }
     
-    .active {
+    .header-navbar .active {
         border-bottom: 0px;
         color: #ff0000;
     }
