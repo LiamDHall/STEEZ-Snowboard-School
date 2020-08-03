@@ -298,8 +298,8 @@ input {
     }
     
     .active {
-    border-bottom: 0px;
-    background-color: #3f3f3f;
+        border-bottom: 0px;
+        background-color: #3f3f3f;
     }
 }
 
@@ -1139,7 +1139,7 @@ footer {
 /*--(END OF NOT MY OWN CODE)--*/
 /*-------------------------------Review (All Sections): Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
-    .active {
+    .carousel-inner .active {
         background: transparent;
     }
 }
