@@ -1094,6 +1094,7 @@ footer {
     flex-direction: row-reverse;
     justify-content: flex-end;
     text-align: left;
+    z-index: 2
 }
 
 .star-rating>input {
