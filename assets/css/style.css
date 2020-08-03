@@ -268,8 +268,7 @@ input {
     }
    
     #header-navbar-collapse {
-        background: #000000;
-        color: #ffffff;
+        background: #ffffff;
         width: 100%;
         position: relative;
         top: -1px;
@@ -283,7 +282,7 @@ input {
     .header-navbar li {
         display: block;
         list-style: none;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #000000;
         font-size: 1rem;
         padding: 0;
     }    
@@ -299,7 +298,7 @@ input {
     
     .active {
         border-bottom: 0px;
-        background-color: #3f3f3f;
+        color: #ff0000;
     }
 }
 
