@@ -243,6 +243,8 @@ input {
     padding: 0px;
     display: none;
     background-color: #ff0000;
+    color: #ffffff;
+    border: none;
 }
 
 .header-navbar .active {
