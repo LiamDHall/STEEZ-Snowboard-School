@@ -316,7 +316,7 @@ input {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 580px) {
     .header-navbar li:last-child {
         display: block;
     }
