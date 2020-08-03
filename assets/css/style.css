@@ -225,6 +225,10 @@ input {
     padding: 10px 20px;
 }
 
+.header-navbar {
+    padding-left: 0;
+}
+
 #header-navbar-collapse{
     float: right;
 }
