@@ -46,7 +46,106 @@
         </header>
         <!--Main Page Content-->
         <main>
-        
+            <header class="page-header">
+                <h1>Contact Us</h1>
+                <hr class="page-line">
+                <h2>Please get in touch we would love to hear from you.</h2>
+                <p>Looking to book a lesson? Head over to our booking page.</p>
+                <button class="contact-us-button"><a href="book-now.html">Bookings</a></button>
+                <button class="contact-us-button button" type="button" data-toggle="collapse" data-target="#contact-form-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                    Contact Form
+                </button>
+            </header>
+            <div class="collapse" id="contact-form-collapse">
+                <section class="contact-form">
+                    <!--Contact Form-->
+                    <header class="section-header">
+                        <h2>Contact Form</h2>
+                        <hr>
+                        <h3>Need some info? Get in touch.</h3>
+                        <h4>Please fill out the form below and we will get back to you within 2 days.</h4>
+                        <p>All fields with a <span class="highlight">*</span> are required.</p>
+                    </header>
+                    <form id="contact-form" class="needs-validation" action="https://formdump.codeinstitute.net/" target="_blank" method="post"  novalidate>
+                        <div class="row form-row">
+                            <div class="form-divider col-12 col-lg-6">
+                                <label for="first-name">First Name <span class="highlight">*</span></label>
+                                <input type="text" name="first-name" class="form-control" id="first-name" placeholder="First Name" maxlength="25" required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Missing name or name too long max 25 charaters!
+                                </div>
+                            </div>
+                            <div class="form-divider col-12 col-lg-6">
+                                <label for="label-name">Last Name <span class="highlight">*</span></label>
+                                <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Last Name" maxlength="25" required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Missing name or name too long max 25 charaters!
+                                </div>
+                            </div>
+                            <div class="form-divider col-12">
+                                <label for="review-email">Email Address <span class="highlight">*</span></label>
+                                <input type="email" name="review-email" class="form-control" id="review-email" placeholder="Type your email addreess here." required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email!
+                                </div>
+                                <label for="review-text">What would like to discuss <span class="highlight">*</span><span class="form-input-info">Max 500 charaters.</span></label>
+                                <textarea name="review-text" class="form-control" id="review-text" rows="15" placeholder="Type what you would like your message to say." maxlength="500" required></textarea>
+                                <input type="submit" class="button control" id="review-submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <section class="contact-us">
+                <div class="row">
+                    <!--Info-->
+                    <div class="contact-item col-12 col-lg-4">
+                        <h2>Info</h2>
+                        <hr>
+                        <p><span class="highlight">Phone</span></p>
+                        <p>+33(0)4 70 00 00 00</p>
+                        <button><a href="tel:+33(0)4 70 00 00 00">Call Us</a></button>
+                        <div class="info-divider">
+                            <p><span class="highlight">Email</span></p> 
+                            <p>info@steezsnowboardschool.com</p>
+                            <button><a href="mailto:info@steezsnowboardschool.com">Email Us</a></button>
+                        </div>
+                    </div>
+                    <!--FAQ-->
+                    <div class="contact-item col-12 col-lg-4">
+                        <h2>FAQ</h2>
+                        <hr>
+                        <p>We may have already anwsered your question.</p>
+                        <p>Check out our Frequecy Asked Questions.</p>
+                        <button><a href="faq.html">FAQ</a></button>
+                        <p>Can't find what your looking for?</p>
+                        <p>Please fill out our contact form above.</p>
+                        <button class="button" type="button" data-toggle="collapse" data-target="#contact-form-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                        Contact Us</button>
+                    </div>
+                    <!--Location Info-->
+                    <div class="contact-item col-12 col-lg-4">
+                        <h2>Location</h2>
+                        <hr>
+                        <p><span class="highlight">Meet Point</span></p>
+                        <p>Méribel-les-Allues,
+                        <br>73550 Les Allues, 
+                        <br>France
+                        <br>45°23'29.0"N
+                        <br>6°34'03.6"E</p>
+                        <button><a href="https://www.google.com/maps/dir//45.3913889,6.5676667/@51.6901712,-4.1680896,14z/data=!4m2!4m1!3e0" target="_blank">Get Directions</a></button>
+                    </div>
+                </div>
+            </section>   
         </main>
         <!--Footer-->
         <footer>
