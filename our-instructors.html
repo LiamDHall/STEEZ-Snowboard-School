@@ -10,34 +10,34 @@
         <!--Font Awesome Icons-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
         <!--Local CSS-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <title>STEEZ | Méribel Snowboard School</title>
     </head>
     <body>
         <!--Site Header-->
         <header class="site-header">
             <div class="logo-container">
-                <div class="logo">
-                    <a class="logo__text" href="index.html"><h2>STEEZ</h2></a>
-                    <a class="logo__tagline" href="index.html">Méribel</a>
+                <div class="logo-content">
+                    <a class="logo" href="index.html"><h2>STEEZ</h2></a>
+                    <a class="logo-tag" href="index.html">Méribel</a>
                 </div>
             </div>
             <!--Bootstrap Collapsible Menu-->
-            <nav class="site-header__nav navbar-expand-custom">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-header-collapsible-navbar" 
+            <nav class="header-content navbar-expand-custom">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-navbar-collapse" 
                 aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars fa-1x"></i></button>
 
-                <button class="site-header__cta cta">
+                <button class="call-to-action">
                     <a href="book-now.html">Book Now</a>
                 </button>
 
-                <div id="site-header-collapsible-navbar" class="navbar-collapse collapse">
-                    <ul class="site-header__navbar">
+                <div class="collapse navbar-collapse" id="header-navbar-collapse">
+                    <ul class="header-navbar">
                         <li><a href="index.html#lessons">Lessons</a></li>
                         <li><a href="index.html#lesson-reviews">Reviews</a></li>
-                        <li><a href="our-instructors.html" class="active">Our Instructors</a></li>
-                        <li><a href="contact-us.html">Location / Contact Us</a></li>
+                        <li><a href="our-instructors.html">Our Instructors</a></li>
+                        <li><a href="contact-us.html" class="active">Location / Contact Us</a></li>
                         <li><a href="book-now.html">Book Now</a></li>
                     </ul>
                 </div>
@@ -45,33 +45,33 @@
         </header>
         <!--Main Page Content-->
         <main>
-            <header class="header header--page">
+            <header class="page-header">
                 <h1>Meet Our Instructors</h1>
-                <hr class="hoz-line">
-                <h2 class="header__tagline header-spacing">Get to know your instructor before your lesson.</h2>
-                <p class="header__info-small header-spacing">Our Insturctors have over 50 years experience between them speaking 7 languages.</p>
+                <hr class="page-line">
+                <h2>Get to know your instructor before your lesson.</h2>
+                <p>Our Insturctors have over 50 years experience between them speaking 7 languages.</p>
             </header>
             <!--Our Instructors-->
             <section>
-                <div class="product-row row">
+                <div class="row lesson">
                     <!--Instructor 1-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-one-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 1</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 1</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -79,31 +79,29 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
                     <!--Instructor 2-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-two-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 2</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 2</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -111,33 +109,30 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>    
-                <div class="product-row row">
-
+                <div class="row lesson">
                     <!--Instructor 3-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-three-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 3</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 3</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -145,31 +140,29 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
                     <!--Instructor 4-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-four-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 4</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 4</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -177,33 +170,30 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>    
-                <div class="product-row row">
-                
+                <div class="row lesson">
                     <!--Instructor 5-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-five-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 5</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 5</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -211,31 +201,29 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
                     <!--Instructor 6-->
-                    <div class=" product col-12 col-lg-6">
-                        <div class="product__image product__image--intermediate product__image--left" role="img" aria-label="beginner strapping in to their snowboard">
-                            <span class="image-crop image-crop--left image-crop--white"></span>
+                    <div class="col-12 col-lg-6 lesson-container">
+                        <div class="instructor-six-image lesson-image lesson-image-left" role="img" aria-label="intermediate students hitting the piste">
+                            <span class="image-corner-left corner-white"></span>
                         </div>
-                        <div class="product-card product-card--right">
-                            <div class="product-card__background product-skew-left product-skew-mobile">
-
-                                <div class="product-card__content">
-                                    <h3 class="product-card__title product-skew-right product-realign-mobile">Name 6</h3>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <p class="product-card__description product-skew-right product-realign-mobile">
-                                        #########
-                                        #########
-                                        #########
+                        <div class="lesson-card lesson-card-right">
+                            <div class="lesson-background right-skew mobile-skew">
+                            
+                                <div class="lesson-content">
+                                    <h3 class="lesson-header right-realign mobile-realign">Name 6</h3>
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <p class="lesson-description right-realign mobile-realign">
+                                    #########
+                                    #########
+                                    #########
                                     </p>
-                                    <hr class="product-skew-right product-realign-mobile hoz-line">
-                                    <ul class="product-card__info product-skew-right product-realign-mobile">
+                                    <hr class="page-line right-realign mobile-realign">
+                                    <ul class="lesson-info right-realign mobile-realign">
                                         <li><strong>Experience:</strong> ######</li>
                                         <li><strong>Speciality:</strong> ######</li>
                                         <li><strong>Time at STEEZ:</strong> #######</li>
@@ -243,9 +231,7 @@
                                         <li><strong>Favourite Resort:</strong> ######</li>
                                         <li><strong>Languages:</strong> #######</li>
                                     </ul>
-                                    <button class="product-card__cta cta product-skew-right product-realign-mobile"><a href="book-now.html">Book</a></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -253,45 +239,45 @@
             </section>
         </main>
         <!--Footer-->
-        <footer class="footer">
-            <div class="footer-inner row">
+        <footer>
+            <div class="footer-container row">
                 <!--Newsletter-->
-                <div class="footer__newsletter footer__content col-12 col-lg-4">
+                <div class="newsletter footer-content col-12 col-lg-4">
                     <h3>Newsletter</h3>
-                    <hr class="footer__hoz-line hoz-line">
+                    <hr>
                     <h4>Just Discounts and News!</h4>
                     <p>Sign up to our newletter today and get up to date on everything 
                     STEEZ as well as grabbing yourself a great deal on lessons and camps!</p>
-                    <div class="footer__actions">
-                        <form id="footer-newsletter-sign-up" class="footer__newsletter-sign-up needs-validation" action="https://formdump.codeinstitute.net/" method="post" novalidate>
-                            <input type="email" name="footer-newsletter-email" id="footer-newsletter-email" class="footer__newsletter-email form__input" placeholder="Type your email addreess here." required>
+                    <div class="footer-cta">
+                        <form id="newsletter-sign-up" class="needs-validation" action="https://formdump.codeinstitute.net/" method="post" novalidate>
+                            <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Type your email addreess here." required>
                             <div class="invalid-feedback">
                                 Please enter a valid email!
                             </div>
-                            <input type="submit" id="footer-newsletter-submit" class="footer__cta cta" value="Sign Up">
+                            <input type="submit" class="button" id="newsletter-submit" value="Sign Up">
                         </form>
                     </div>
                 </div>
                 <!--Location-->
-                <div class="footer__location footer__content col-12 col-lg-4">
+                <div class="footer-location footer-content col-12 col-lg-4">
                     <h3>Location</h3>
-                    <hr class="footer__hoz-line hoz-line">
-                    <h4><span class="highlight highlight--brand">Meet Point</span></h4>
-                    <p class="footer__address">Méribel-les-Allues,
+                    <hr>
+                    <h4><span class="highlight">Meet Point</span></h4>
+                    <p>Méribel-les-Allues,
                     <br>73550 Les Allues, 
                     <br>France
                     <br>45°23'29.0"N
                     <br>6°34'03.6"E</p>
-                    <div class="footer__actions">
-                        <button class="footer__cta cta"><a href="https://www.google.com/maps/dir//45.3913889,6.5676667/@51.6901712,-4.1680896,14z/data=!4m2!4m1!3e0" target="_blank">Get Directions</a></button>
-                        <button class="footer__cta cta"><a href="contact-us.html">Contact Us</a></button>
+                    <div class="footer-cta">
+                        <button><a href="https://www.google.com/maps/dir//45.3913889,6.5676667/@51.6901712,-4.1680896,14z/data=!4m2!4m1!3e0" target="_blank">Get Directions</a></button>
+                        <button><a href="contact-us.html">Contact Us</a></button>
                     </div>    
                 </div>
                 <!--Map-->
-                <div class="footer__map footer__content col-12 col-lg-4">
+                <div class="footer-map footer-content col-12 col-lg-4">
                     <h3>Map</h3>
-                    <hr class="footer__hoz-line hoz-line">
-                    <div class="footer__location-map" alt="google map with drop pin showing steez snowboard school location">
+                    <hr>
+                    <div class="location-map" alt="google map with drop pin showing steez snowboard school location">
                         <!--NOT MY OWN CODE Source: Google Maps-->
                         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1j3k9WHG0kcyjcsjof1N5aOtN6bAZ-XQW" width="100%" height="300"></iframe>
                         <!--END of NOT MY OWN CODE-->
@@ -299,9 +285,9 @@
                 </div>
             </div>
             <!--Social-->
-            <div class="social row">
-                <div class="social-inner col-12">
-                    <ul class="social__icons">
+            <div class="social-container row">
+                <div class="social col-12">
+                    <ul>
                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                         <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -311,12 +297,12 @@
             </div>
             <!--Legal-->
             <div class="legal">
-                <div class="legal-inner">
-                    <div class="legal__copywrite">
+                <div class="legal-content">
+                    <div class="copywrite">
                         <p><span class="copywrite-symbol">©</span>STEEZ.ltd</p>
                     </div>
-                    <nav class="legal__nav">
-                        <ul class="legal__documents">
+                    <nav class="legal-documents">
+                        <ul class="legal-documents-navbar">
                             <li><a href="privacy-policy.html" target="_blank">Privacy</a></li>
                             <li><a href="terms-and-conditions.html" target="_blank">Terms & Conditions</a></li>
                         </ul>
