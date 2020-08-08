@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
 /*-------------------------------Bootstrap Custom Breakpoint @ 1024px Source: https://www.codeply.com/go/J70zkpygvk (NOT MY OWN CODE)*/ 
-@media (min-width: 1025px){     /*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
+@media (min-width: 1025px) {     /*--IMPORTANT: media query must be 1px higher then target breakpoint--RESOLVES: ISSUE 1--*/
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
@@ -24,6 +24,75 @@
 }
 
 /*--(END of NOT MY CODE)--*/
+
+/*-------------------------------Content Editing*/
+/*--Brand Colours--*/
+:root {
+    --brand-color: #68edff;
+    --brand-color-hover: #ffffff;
+}
+
+/*--Hero Image--*/
+.hero__image {
+    background: url(../images/steez-snowboard-instructor-shredding.jpg) no-repeat center center;
+}
+
+@media screen and (max-width: 525px) {
+    .hero__image {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/steez-snowboard-instructor-shredding.jpg);
+       height: 60vh;
+    }
+}
+
+/*--Lesson Images--*/
+.product__image--beginner {
+    background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
+    background-position: 100% 75%;
+}
+
+.product__image--intermediate {
+    background: url(../images/intermediate-students-hitting-the-piste.jpg) no-repeat center center;
+    background-position: 30% 60%;
+}
+
+.product__image--expert {
+    background: url(../images/expert-snowboarder-carving.jpg) no-repeat center center;
+    background-position: 10% 50%;
+}
+
+.product__image--park {
+    background: url(../images/steez-student-snowboarder-hitting-a-kicker.jpg) no-repeat center center;
+    background-position: 50% 60%;
+}
+
+.product__image--back-country {
+    background: url(../images/snowboarders-reaching-peak.jpg) no-repeat center center;
+    background-position: 80% 50%;
+}
+
+/*-- Lesson Image Mobile Positions--*/
+@media screen and (max-width: 992px) {
+    .product__image--beginner {
+        background-position: 80% 100%;
+    }
+
+    .product__image--intermediate {
+        background-position: 25% 20%;
+    }
+
+    .product__image--expert {
+        background-position: 25% 30%;
+    }
+
+    .product__image--park {
+        background-position: 45% 0%;
+    }
+
+    .product__image--country {
+        background-position: 75% 50%;
+    }
+}
+
 /*-------------------------------Basic Structure*/ 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -33,16 +102,17 @@ body {
     font-size: 1rem;
 }
 
-.highlight {
-    font-weight: 700;
+main {
+    padding-top: 60px;
 }
 
-.highlight--brand {
-    color: #ff0000;
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
-.highlight--important {
-    color: #ff0000;
+ul {
+    margin-bottom: 0;
 }
 
 .section {
@@ -60,44 +130,10 @@ body {
     margin: 0 auto;
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: inherit;
-}
-
-.hoz-line {
-    border: 1px solid #000000;
-    width: 50%;
-    max-width: 250px;
-    color:#000000;
-}
-
-ul {
-    margin-bottom: 0;
-}
-
-main {
-    padding-top: 60px;
-}
-
-.page-line {
-    max-width: 250px;
-}
-
 .link-target {
     visibility: hidden;
     position: relative;
     top: -60px;
-}
-
-.mobile-break {
-    display: none;
-}
-
-@media screen and (max-width: 992px) {
-    .mobile-break {
-        display: block;
-    }
 }
 
 /*--Headers--*/
@@ -117,12 +153,41 @@ h4 {
     font-size: 1.25rem
 }
 
+.highlight {
+    font-weight: 700;
+}
+
+.highlight--brand {
+    color: var(--brand-color);
+}
+
+.highlight--important {
+    color: #ff0000;
+}
+
+.hoz-line {
+    border: 1px solid #000000;
+    width: 50%;
+    max-width: 250px;
+    color:#000000;
+}
+
+.mobile-break {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .mobile-break {
+        display: block;
+    }
+}
+
 /*--Buttons--*/
 .cta,
 .button {
     border: 0;
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: var(--brand-color);
     padding: 0;
     border-radius: 5px;
     width: 200px;
@@ -134,8 +199,8 @@ h4 {
 
 .cta:hover,
 .button:hover {
-    color: #ff0000;
-    background-color: #ffffff;
+    color: var(--brand-color);
+    background-color: var(--brand-color-hover);
 }
 
 .button>a,
@@ -336,14 +401,14 @@ h4 {
 .site-header__navbar li:last-child{
     padding: 0px;
     display: none;
-    background-color:  #ff0000;
+    background-color: var(--brand-color);
     color: #ffffff;
     border: none;
 }
 
 .site-header__navbar .active {
     border-bottom: 2px solid;
-    border-color: #ff0000;
+    border-color: var(--brand-color);
 }
 
 .site-header__cta {
@@ -408,7 +473,7 @@ h4 {
     
     .site-header__navbar .active {
         border-bottom: 0px;
-        color:  #ff0000;
+        color: var(--brand-color);
     }
 }
 
@@ -608,7 +673,6 @@ h4 {
     position: relative;
     height: 75vh;
     width: 100%;
-    background: url(../images/steez-snowboard-instructor-shredding.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -630,8 +694,8 @@ h4 {
 .hero__hoz-line {
     width: 505px;
     border: 1px solid;
-    border-color:  #ff0000;
-    color:  #ff0000;
+    border-color: var(--brand-color);
+    color: var(--brand-color);
 }
 
 .hero__tagline {
@@ -689,13 +753,6 @@ h4 {
 
     .hero__hoz-line {
         width: 205px;
-    }
-}
-
-@media screen and (max-width: 525px) {
-    .hero__image {
-       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/steez-snowboard-instructor-shredding.jpg);
-       height: 60vh;
     }
 }
 
@@ -816,7 +873,7 @@ h4 {
 .product-card__price-strip {
     width: 100%; 
     color: #ffffff;
-    background-color:  #ff0000;
+    background-color: var(--brand-color);
     margin: 20px 0;
 }
 
@@ -958,26 +1015,6 @@ h4 {
         min-width: 0px;
     }
 
-    .product__image--beginner {
-        background-position: 80% 100%;
-    }
-
-    .product__image--intermediate {
-        background-position: 25% 20%;
-    }
-
-    .product__image--expert {
-        background-position: 25% 30%;
-    }
-
-    .product__image--park {
-        background-position: 45% 0%;
-    }
-
-    .product__image--country {
-        background-position: 75% 50%;
-    }
-
     .product__image {
         position: absolute;
         bottom: 0px;
@@ -1031,7 +1068,7 @@ h4 {
 }
 
 .review__stars {
-    color:  #ff0000;
+    color: var(--brand-color);
     width: 100%;
     font-size: 27px;
     padding: 8px 0 16px;
@@ -1065,7 +1102,7 @@ h4 {
 }
 
 .carousel-indicators li:hover {
-    color:  #ff0000;
+    color: var(--brand-color);
 }
 
 .carousel-indicators__label{
@@ -1073,7 +1110,7 @@ h4 {
 }
 
 .carousel-indicators .active {
-    border-color:  #ff0000;
+    border-color: var(--brand-color);
 }
 
 .carousel-inner {
@@ -1097,7 +1134,7 @@ h4 {
 
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
-    color:  #ff0000;
+    color: var(--brand-color);
 }
 
 .review-arrow {
