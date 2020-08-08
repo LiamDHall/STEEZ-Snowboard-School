@@ -284,19 +284,18 @@ h4 {
     margin: 0 8px; 
 }
 
-/*--Source: https://stackoverflow.com/questions/8977957/can-i-change-the-height-of-an-image-in-css-before-after-pseudo-elements Apdated For My Needs--*/
+
 .star-rating>label::before {
-    display: inline-block;
+    content: "\f005";
     position: absolute;
-    top: 5px;
+    top: -1px;
     opacity: 0;
-    background-image: url(../icons/red-star-solid.svg);
-    background-size: 32px 27px;
-    width: 32px; 
-    height: 27px;
-    content: "";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    font-size: 27px;
+    color: var(--brand-color);
 }
-/*--END of Source: stackoverflow.com/questions/8977957--*/
+
 
 .star-rating>label:hover:before,
 .star-rating>label:hover~label:before {
