@@ -822,6 +822,10 @@ h4 {
     font-size: 1.5rem;
 }
 
+.header__info-small {
+    font-size: 1.25rem;
+}
+
 .header__cta,
 .header__button {
     margin-left: 20px;
@@ -1059,6 +1063,10 @@ h4 {
     width: 80%;
     left: 10%;
     margin-top: 50px;
+}
+
+.carousel>.header__info-small {
+    text-align: center;
 }
 
 .review {
