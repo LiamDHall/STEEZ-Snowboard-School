@@ -229,14 +229,14 @@ h4 {
     width: 60%;
 }
 
-.form__label {
-    padding: 40px 0 12px 15px;
-    font-weight: 500;
+.form__divider>.form__label {
+    margin: 0px 15px 12px 15px;
 }
 
-.form__divider .form__label {
-    padding: 0px 0 12px 15px;
+.form__label {
+    margin: 40px 15px 12px 15px;
     font-weight: 500;
+    width: 100%;
 }
 
 .form__input {
@@ -246,6 +246,11 @@ h4 {
     border-radius: 5px;
     padding-left: 15px;
     height: 50px;
+}
+
+.form-input-info {
+    float: right;
+    font-weight: 300;
 }
 
 .form__text-area {
@@ -317,7 +322,12 @@ h4 {
 }
 /*--(END OF NOT MY OWN CODE)--*/
 
+/*--Form: Mobile & Responsive--*/
 @media screen and (max-width: 992px) {
+    .form__divider--right  {
+        margin-top: 40px;
+    }
+
     .form-input-info {
         float: none;
         display: block;
@@ -330,6 +340,10 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+    .form__row {
+        width: 80%;
+    }
+
     .star-feedback {
         margin-left: 0px;
         margin-top: 45px;
@@ -342,6 +356,12 @@ h4 {
         float: none;
         display: block;
         padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form__row {
+        width: 92%;
     }
 }
 
