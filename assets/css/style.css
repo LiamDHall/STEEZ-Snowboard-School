@@ -915,7 +915,7 @@ h4 {
     width: 45%;
 }
 
-/*--Lesson Transformations--*/
+/*--Product Transformations--*/
 .product-skew-left {
     transform: skew(10deg);
 }
@@ -924,32 +924,7 @@ h4 {
     transform: skew(-10deg);
 }
 
-/*--Lesson Image--*/
-.product__image--beginner {
-    background: url(../images/beginner-strapping-in.jpg) no-repeat center center;
-    background-position: 100% 75%;
-}
-
-.product__image--intermediate {
-    background: url(../images/intermediate-students-hitting-the-piste.jpg) no-repeat center center;
-    background-position: 30% 60%;
-}
-
-.product__image--expert {
-    background: url(../images/expert-snowboarder-carving.jpg) no-repeat center center;
-    background-position: 10% 50%;
-}
-
-.product__image--park {
-    background: url(../images/steez-student-snowboarder-hitting-a-kicker.jpg) no-repeat center center;
-    background-position: 50% 60%;
-}
-
-.product__image--back-country {
-    background: url(../images/snowboarders-reaching-peak.jpg) no-repeat center center;
-    background-position: 80% 50%;
-}
-
+/*--Product Image--*/
 .product__image {
     width: 57%;
     height: 600px;
@@ -993,7 +968,7 @@ h4 {
     width: 100%;
 }
 
-/*-------------------------------Lessons: Mobile & Responsive*/
+/*-------------------------------Product: Mobile & Responsive*/
 @media screen and (max-width: 1024px) {
     .product-card__cta {
         width: 100%;
