@@ -17,7 +17,7 @@
         <!--Site Header-->
         <header class="site-header">
             <div class="logo-container">
-                <div class="logo">
+                <div class="logo notranslate">
                     <a class="logo__text" href="index.html"><h2>STEEZ</h2></a>
                     <a class="logo__tagline" href="index.html">Méribel</a>
                 </div>
@@ -34,14 +34,98 @@
 
                 <div id="site-header-collapsible-navbar" class="navbar-collapse collapse">
                     <ul class="site-header__navbar">
-                        <li><a href="index.html#lessons">Lessons</a></li>
+
+                        <!--Google Translate Mobile Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
+                        <li class="google-translate-mobile">
+                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                                <i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul id="google-translate-collapse" class="google-translate-collapse-dropdown list-unstyled collapse">
+                                <li>
+                                    <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.countryflags.io/gb/flat/16.png" alt="EN">
+                                        <span class="notranslate">English</span>
+                                    </a>
+                                </li>
+                                <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.countryflags.io/fr/flat/16.png" alt="FR">
+                                        <span class="notranslate">Français</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#googtrans(en|it)" class="lang-es lang-select" data-lang="es"><img src="https://www.countryflags.io/it/flat/16.png" alt="IT"> 
+                                        <span class="notranslate">Italien</span>
+                                    </a>
+                                </li>
+                                <li><a href="#googtrans(en|de)" class="lang-es lang-select" data-lang="es"><img src="https://www.countryflags.io/de/flat/16.png" alt="DE"> 
+                                        <span class="notranslate">Deutsche</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#googtrans(en|ru)" class="lang-es lang-select" data-lang="ru"><img src="https://www.countryflags.io/ru/flat/16.png" alt="RU">
+                                        <span class="notranslate">Pусский</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.countryflags.io/jp/flat/16.png" alt="JA">
+                                        <span class="notranslate">日本人</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.countryflags.io/cn/flat/16.png" alt="ZH-CN">
+                                        <span class="notranslate">中文</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="index.html#lessons" class="active">Lessons</a></li>
                         <li><a href="index.html#lesson-reviews">Reviews</a></li>
                         <li><a href="our-instructors.html">Our Instructors</a></li>
-                        <li><a href="contact-us.html" class="active">Location / Contact Us</a></li>
-                        <li><a href="book-now.html">Book Now</a></li>
+                        <li><a href="contact-us.html">Location / Contact Us</a></li>
+                        <li class="book-now-mobile"><a href="book-now.html">Book Now</a></li>
                     </ul>
                 </div>
             </nav>
+
+            <!--Google Translate Desktop Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
+            <ul class="google-translate-container">
+                <li class="google-translate list-unstyled"><i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
+                    <ul class="google-translate__dropdown list-unstyled">
+                        <li>
+                            <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.countryflags.io/gb/flat/16.png" alt="EN">
+                                <span class="notranslate">English</span>
+                            </a>
+                        </li>
+                        <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.countryflags.io/fr/flat/16.png" alt="FR">
+                                <span class="notranslate">Français</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#googtrans(en|it)" class="lang-es lang-select" data-lang="es"><img src="https://www.countryflags.io/it/flat/16.png" alt="IT"> 
+                                <span class="notranslate">Italien</span>
+                            </a>
+                        </li>
+                        <li><a href="#googtrans(en|de)" class="lang-es lang-select" data-lang="es"><img src="https://www.countryflags.io/de/flat/16.png" alt="DE"> 
+                                <span class="notranslate">Deutsche</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#googtrans(en|ru)" class="lang-es lang-select" data-lang="ru"><img src="https://www.countryflags.io/ru/flat/16.png" alt="RU">
+                                <span class="notranslate">Pусский</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.countryflags.io/jp/flat/16.png" alt="JA">
+                                <span class="notranslate">日本人</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.countryflags.io/cn/flat/16.png" alt="ZH-CN">
+                                <span class="notranslate">中文</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </header>
         <!--Main Page Content-->
         <main>
@@ -55,7 +139,7 @@
                 </p>
                 <button class="header__cta cta header-spacing"><a href="book-now.html">Bookings</a></button>
                 <button class="header__button button header-spacing" type="button" data-toggle="collapse" data-target="#contact-form-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
-                    Contact Form
+                    <span class="collapse-button-text-padding">Contact Form</span>
                 </button>
             </header>
             <!--Contact Form-->
@@ -113,11 +197,11 @@
                         <hr class="contact-hoz-line hoz-line">
                         <p><span class="highlight highlight--brand">Phone</span></p>
                         <p>+33(0)4 70 00 00 00</p>
-                        <button class="contact-item__button button"><a href="tel:+33(0)4 70 00 00 00">Call Us</a></button>
+                        <button class="contact-item__button button"><a href="tel:+33(0)4 70 00 00 00">Call</a></button>
                         <div class="info-divider">
                             <p><span class="highlight highlight--brand">Email</span></p> 
                             <p>info@steezsnowboardschool.com</p>
-                            <button class="contact-item__button button"><a href="mailto:info@steezsnowboardschool.com">Email Us</a></button>
+                            <button class="contact-item__button button"><a href="mailto:info@steezsnowboardschool.com">Email</a></button>
                         </div>
                     </div>
                     <!--FAQ-->
@@ -130,7 +214,7 @@
                         <p>Can't find what your looking for?</p>
                         <p>Please fill out our contact form above.</p>
                         <button class="contact-item__button button" type="button" data-toggle="collapse" data-target="#contact-form-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
-                            Contact Us
+                            <span class="collapse-button-text-padding">Contact Us</span>
                         </button>
                     </div>
                     <!--Location Info-->
@@ -245,5 +329,35 @@
             }, false);
             })();
         </script>
+        <!--Google Translate Script-->
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+            }
+
+            function triggerHtmlEvent(element, eventName) {
+            var event;
+            if (document.createEvent) {
+                event = document.createEvent('HTMLEvents');
+                event.initEvent(eventName, true, true);
+                element.dispatchEvent(event);
+            } else {
+                event = document.createEventObject();
+                event.eventType = eventName;
+                element.fireEvent('on' + event.eventType, event);
+            }
+            }
+
+            jQuery('.lang-select').click(function() {
+            var theLang = jQuery(this).attr('data-lang');
+            jQuery('.goog-te-combo').val(theLang);
+
+            //alert(jQuery(this).attr('href'));
+            window.location = jQuery(this).attr('href');
+            location.reload();
+
+            });
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 </html>
