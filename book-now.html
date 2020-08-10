@@ -129,8 +129,80 @@
         </header>
         <!--Main Page Content-->
         <main>
+            <header class="header header--page">
+                <h1 class="header__title">Booking</h1>
+                <hr class="hoz-line">
+                <h2 class="header__tagline header-spacing">We can't wait for you to get your shred on!</h2>
+                <h3 class ="header__info header-spacing">
+                    Currently taking bookings for this coming season 20/21.
+                </h3>
+                <p class ="header-spacing">All fields with a <span class="highlight highlight--important notranslate">*</span> are required.</p>
+            </header>
             <section>
-                book now
+                <form id="booking-form" class="form form--white needs-validation" action="https://formdump.codeinstitute.net/" target="_blank" method="post"  novalidate>
+                        <div class="form__row row">
+                            <div class="form__divider col-12 col-lg-6">
+                                <label for="first-name" class="form__label">First Name <span class="highlight highlight--important notranslate">*</span></label>
+                                <input type="text" name="first-name" class="form__input" id="first-name" placeholder="First Name" maxlength="25" required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Missing name or name too long max 25 charaters!
+                                </div>
+                            </div>
+                            <div class="form__divider form__divider--right col-12 col-lg-6">
+                                <label for="label-name" class="form__label">Last Name <span class="highlight highlight--important notranslate">*</span></label>
+                                <input type="text" name="last-name" class="form__input" id="last-name" placeholder="Last Name" maxlength="25" required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Missing name or name too long max 25 charaters!
+                                </div>
+                            </div>
+                            <div class="form__section col-12">
+                                <label for="booking-email" class="form__label">Email Address <span class="highlight highlight--important notranslate">*</span></label>
+                                <input type="email" name="booking-email" class="form__input" id="booking-email" placeholder="Type your email addreess here." required>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email!
+                                </div>
+                                <label for="booking-phone-number" class="form__label">Mobile Number <span class="form-input-info">Please include country code.</span></label>
+                                <input type="tel" name="booking-phone" class="form__input" id="booking-phone-number" placeholder="eg. +33 4 70 00 00 00">
+
+                                <label for="booking-lesson-selector" class="form__label">Lesson <span class="highlight highlight--important notranslate">*</span></label>
+                                <select id="booking-lesson-selector" name="booking-lesson" class="form__input" size="1" alt="dropdown menu to select a lesson" required>
+                                    <option value="beginner">Beginner</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="expert">Expert</option>
+                                    <option value="park">Park</option>
+                                    <option value="back-country">Back Country</option>
+                                </select>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+
+                                <label for="booking-date" class="form__label">Date <span class="highlight highlight--important notranslate">*</span><span class="form-input-info">10/12/2020 - 22/04/2021</span></label>
+                                <input type="date" name="booking-date" class="form__input" id="booking-date" min="2020-12-10" max="2021-04-22" required>
+                                <div class="invalid-feedback">
+                                    Have you entered a date? If you have please look at other errors.
+                                </div>
+
+                                <label for="booking-time" class="form__label">Time <span class="highlight highlight--important notranslate">*</span><span class="form-input-info">Choose either for Back Country</span></label>
+                                <select id="booking-time" name="booking-time" class="form__input" size="1" alt="dropdown menu to select a lesson" required>
+                                    <option value="morning">Morning <span class="notranslate">10:00 - 12:00</span></option>
+                                    <option value="afternoon">Afternoon <span class="notranslate">14:00 - 16:00</span></option>
+                                </select>
+                                <div class="valid-feedback">
+                                    Looking good
+                                </div>
+                                <input type="submit" class="form__submit button control" id="booking-submit" value="Payment">
+                            </div>
+                        </div>
+                    </form>
             </section>
         </main>
         <!--Footer-->

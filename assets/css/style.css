@@ -265,6 +265,14 @@ h4 {
     margin-top: 40px;
 }
 
+.form--white .form__input {
+    background-color: #ececec;
+}
+
+.form--white .form__submit {
+    width: 100%;
+}
+
 .valid-feedback,
 .invalid-feedback {
     padding: 5px 15px 0 15px;
