@@ -1345,3 +1345,16 @@ h4 {
         padding: 17px !important;
     }
 }
+
+/*-------------------------------Paypal*/
+.paypal {
+    width: 40%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+@media screen and (max-width: 768px) {
+    .paypal {
+        width: 80%;
+    }
+}
