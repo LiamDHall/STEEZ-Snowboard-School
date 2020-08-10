@@ -132,11 +132,21 @@
             <header class="header header--page">
                 <h1 class="header__title">Booking</h1>
                 <hr class="hoz-line">
+                <nav class="breadcrumb-nav-container header-spacing" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb__item active" aria-current="page">Your Details</li>
+                        <li class="breadcrumb__item breadcrumb__icon"><i class="fas fa-angle-double-right"></i></li>
+                        <li class="breadcrumb__item">Payment</li>
+                        <li class="breadcrumb__item breadcrumb__icon"><i class="fas fa-angle-double-right"></i></li>
+                        <li class="breadcrumb__item">Confirmation</li>
+                    </ol>
+                </nav>
                 <h2 class="header__tagline header-spacing">We can't wait for you to get your shred on!</h2>
                 <h3 class ="header__info header-spacing">
                     Currently taking bookings for this coming season 20/21.
                 </h3>
-                <p class ="header-spacing">All fields with a <span class="highlight highlight--important notranslate">*</span> are required.</p>
+                <a href="payment.html">Pay</a>
+                <p class ="header__info-small header-spacing">All fields with a <span class="highlight highlight--important notranslate">*</span> are required.</p>
             </header>
             <section>
                 <form id="booking-form" class="form form--white needs-validation" action="https://formdump.codeinstitute.net/" target="_blank" method="post"  novalidate>

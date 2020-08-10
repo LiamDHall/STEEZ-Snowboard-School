@@ -1367,3 +1367,54 @@ h4 {
 .confirmation-cta {
     margin-left: 20px;
 }
+
+/*-------------------------------Bread Crumb Nav*/
+.breadcrumb {
+    margin: 0 auto;
+    width: 80%;
+    background: transparent;
+    padding: 0;
+}
+
+.breadcrumb__item {
+    color: #a6a6a6;
+    margin: 0 auto;
+}
+
+.breadcrumb .active {
+    color: var(--brand-color);
+    font-weight: 500;
+}
+
+.step-pasted {
+    color: inherit;
+}
+
+.breadcrumb__icon:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f101";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 576px) {
+    .breadcrumb {
+        width: 92%;
+    }
+    
+    .breadcrumb__item {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .breadcrumb__item:first-child {
+        width: 100%;
+        margin: 0;
+    }
+
+    .breadcrumb__icon:before {
+        content: "\f103";
+    }
+}
