@@ -142,6 +142,10 @@ ul {
     list-style: none;
 }
 
+.inline {
+    display: inline;
+}
+
 /*--Headers--*/
 h1 {
     font-size: 2rem;
@@ -1357,4 +1361,9 @@ h4 {
     .paypal {
         width: 80%;
     }
+}
+
+/*-------------------------------Booking confirmation*/
+.confirmation-cta {
+    margin-left: 20px;
 }
