@@ -470,7 +470,7 @@ h4 {
 }
 /*-------------------------------Site Header & Nav: Mobile & Responsive*/
 .navbar-toggler {
-    padding: 10px;
+    padding: 0;
     float: right;
     margin-right: 45px;
     color: #000000;
@@ -478,7 +478,34 @@ h4 {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 40px;
+}
+
+.nav-icon-toggler {
+    margin: 0;
+    display: inline;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-icon-toggler__input {
+    display: none;
+}
+
+.nav-icon:after {
+    content:"\f0c9";
+    display: inline-block;
+    font-weight: 900;
+    font-size: 24px;
+    font-family: "Font Awesome 5 Free";
+    padding: 8px 9px;
+    
+}
+
+.nav-icon-toggler__input:checked + .nav-icon:after {
+    content:"\f00d";
+    padding: 8px 12px;
 }
 
 @media screen and (max-width: 1024px) {
