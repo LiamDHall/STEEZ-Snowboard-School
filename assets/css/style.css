@@ -230,11 +230,11 @@ h4 {
 }
 
 .form__divider>.form__label {
-    margin: 0px 15px 12px 15px;
+    padding: 0px 15px 12px 15px;
 }
 
 .form__label {
-    margin: 40px 15px 12px 15px;
+    padding: 40px 15px 12px 15px;
     font-weight: 500;
     width: 100%;
 }
