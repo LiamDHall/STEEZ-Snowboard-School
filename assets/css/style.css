@@ -618,6 +618,10 @@ h4 {
     font-size: 3.5rem;
 }
 
+.social__icons li:hover {
+    color: var(--brand-color);
+}
+
 /*-------------------------------Legal*/
 .legal {
     width: 100%;
