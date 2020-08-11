@@ -1300,6 +1300,16 @@ header__info-xs {
     max-width: none;
 }
 
+@media screen and (max-width: 991px) {}
+    .contact-item {
+        margin-top: 50px;
+    }
+
+    .contact-item p{
+        margin-top: 16px;
+    }
+}
+
 /*-------------------------------Google Translate*/
 .google-translate-container {
     margin-bottom: 0px;
