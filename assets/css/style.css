@@ -899,6 +899,10 @@ h4 {
     font-size: 1.25rem;
 }
 
+header__info-xs {
+    font-size: 1rem;
+}
+
 .header__cta,
 .header__button {
     margin-left: 20px;
@@ -1420,7 +1424,9 @@ h4 {
     }
 }
 
-/*-------------------------------Payment*/
+/*-------------------------------Booking, Payment and Booking Confirmation*/
+
+/*--Payment--*/
 .paypal, .payment-cta {
     width: 40%;
     max-width: 650px;
@@ -1440,12 +1446,19 @@ h4 {
     }
 }
 
-/*-------------------------------Booking confirmation*/
-.confirmation-cta {
-    margin-left: 20px;
+/*--Booking confirmation--*/
+.booking-confirmation-info {
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-/*-------------------------------Bread Crumb Nav*/
+.confirmation-cta {
+    margin: 20px auto 0;
+    display: block;
+}
+
+/*--Bread Crumb Nav*/
 .breadcrumb {
     margin: 0 auto;
     width: 80%;
@@ -1474,6 +1487,12 @@ h4 {
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+    .booking-ref {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 576px) {
