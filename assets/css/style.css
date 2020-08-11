@@ -1420,15 +1420,22 @@ h4 {
     }
 }
 
-/*-------------------------------Paypal*/
-.paypal {
+/*-------------------------------Payment*/
+.paypal, .payment-cta {
     width: 40%;
-    margin: 0 auto;
     max-width: 650px;
 }
 
+.alt-payment-container {
+    text-align: center;
+}
+
+.paypal {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
-    .paypal {
+    .paypal, .payment-cta {
         width: 80%;
     }
 }
