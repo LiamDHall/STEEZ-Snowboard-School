@@ -476,7 +476,10 @@ h4 {
     color: #000000;
     position: relative;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -751,12 +754,15 @@ h4 {
 }
 
 .hero-inner {
+    color: #ffffff;
     position: absolute;
     left: 5%;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #ffffff;
 }
 
 .hero__title {
@@ -834,6 +840,10 @@ h4 {
         position: absolute;
         left: 50%;
         top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
 
@@ -933,13 +943,16 @@ h4 {
 
 .product-card__content {
     text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     width: 85%;
     margin: 0 auto;
-    
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+        
 }
 
 .product-card__title {
@@ -984,10 +997,19 @@ h4 {
 
 /*--Product Transformations--*/
 .product-skew-left {
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    -o-transform: skew(10deg);
     transform: skew(10deg);
+
 }
 
 .product-skew-right {
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
     transform: skew(-10deg);
 }
 
@@ -1044,32 +1066,53 @@ h4 {
 
 @media screen and (max-width: 992px) {
     .product-skew-mobile {
+        -webkit-transform: skewY(-5deg);
+        -moz-transform: skewY(-5deg);
+        -ms-transform: skewY(-5deg);
+        -o-transform: skewY(-5deg);
         transform: skewY(-5deg);
     }
 
     .product-realign-mobile {
+        -webkit-transform: skew(5deg) rotate(5deg);
+        -moz-transform: skew(5deg) rotate(5deg);
+        -ms-transform: skew(5deg) rotate(5deg);
+        -o-transform: skew(5deg) rotate(5deg);
         transform: skew(5deg) rotate(5deg);
     }
 
     .price-strip-realign-mobile {
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
         transform: rotate(5deg);
     }
 
     .price-realign-mobile {
+        -webkit-transform: skew(5deg);
+        -moz-transform: skew(5deg);
+        -ms-transform: skew(5deg);
+        -o-transform: skew(5deg);
         transform: skew(5deg);
     }
 
     .product-card {
-        position: relative;
-        top: -460px;
         margin-top: 460px;
-        left: 50%;
-        transform: translateX(-50%);
         width: 100%;
         min-height: 775px;
         max-width: 100%;
         z-index: 2;
         min-width: 0px;
+        position: relative;
+        top: -460px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+
     }
 
     .product-card__tagline {
