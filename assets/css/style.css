@@ -1175,8 +1175,16 @@ header__info-xs {
     margin-top: 50px;
 }
 
-.carousel>.header__info-small {
-    text-align: center;
+.review-slide-header {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.review-slide-header__line {
+    width: 100%;
+    color: var(--brand-color);
+    border-color: var(--brand-color);
+    max-width: none;
 }
 
 .review {

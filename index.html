@@ -157,16 +157,22 @@
                 <header class="header header--homepage"> 
                     <h1 class="header__title">Lessons</h1>
                     <hr class="hoz-line">
-                    <h2 class="header__tagline header-spacing">Scroll down to find the perfect lesson for you.</h2>
+                    <h2 class ="header__info header-spacing">
+                        Lessons offered fluently in the following languages:
+                    </h2>
+                    <h2 class ="header__info header-spacing highlight highlight--brand">
+                        English, French, Italien, German, Russia, Japanese and Chinese.
+                    </h2>
+                    <h3 class="header__info header-spacing">Scroll down to find the perfect lesson for you.</h3>
                     <h3 class ="header__info header-spacing highlight highlight--brand">Meet Point</h3>
-                    <h3 class="header header__info header-spacing">
+                    <h4 class="header header__info header-spacing">
                         Méribel-les-Allues,
                         <br class="mobile-break">73550 Les Allues, 
                         <br class="mobile-break">France
                         <br class="mobile-break"><span class="notranslate">45°23'29.0"N</span>
                         <br class="mobile-break"><span class="notranslate">6°34'03.6"E</span>
-                    </h3>
-                    <p class="header__info-small header-spacing"><strong>Ski Pass Not Included</strong></p>
+                    </h4>
+                    <p class="header__info-xs header-spacing"><strong>Ski Pass Not Included</strong></p>
                     <button class="header__button button header-spacing"><a href="index.html#lesson-reviews">Lesson Reviews</a></button>
                 </header>
 
@@ -438,20 +444,27 @@
 
                 <!--Bootstrap Carousel Apdated For My Needs-->
                 <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel" data-pause="hover">
-                    <h2 class="header__info-small header-spacing">Select which lesson you would like to see reviews for.</h2>
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"><span class="carousel-indicators__label">Latest</span></li>
-                        <li data-target="#carousel" data-slide-to="1"><span class="carousel-indicators__label">Beginner</span></li>
-                        <li data-target="#carousel" data-slide-to="2"><span class="carousel-indicators__label">Intermediate</span></li>
-                        <li data-target="#carousel" data-slide-to="3"><span class="carousel-indicators__label">Expert</span></li>
-                        <li data-target="#carousel" data-slide-to="4"><span class="carousel-indicators__label">Park</span></li>
-                        <li data-target="#carousel" data-slide-to="5"><span class="carousel-indicators__label">Back Country</span></li>
-                    </ol>
-                    
-                    <!--Latest Reviews-->
+                    <div class="header">
+                        <h2 class="header__info-small header-spacing">Select which lesson you would like to see reviews for.</h2>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"><span class="carousel-indicators__label">Latest</span></li>
+                            <li data-target="#carousel" data-slide-to="1"><span class="carousel-indicators__label">Beginner</span></li>
+                            <li data-target="#carousel" data-slide-to="2"><span class="carousel-indicators__label">Intermediate</span></li>
+                            <li data-target="#carousel" data-slide-to="3"><span class="carousel-indicators__label">Expert</span></li>
+                            <li data-target="#carousel" data-slide-to="4"><span class="carousel-indicators__label">Park</span></li>
+                            <li data-target="#carousel" data-slide-to="5"><span class="carousel-indicators__label">Back Country</span></li>
+                        </ol>
+                        <h2 class="header__info-small header-spacing mobile-break">Swipe on the reviews to cycle them.</h2>
+                    </div>
                     <div class="carousel-inner">
+
+                    <!--Latest Reviews-->
                         <div class="carousel-item active">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Latest Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Brad J</strong> - Fixed all my problems.</h4>
                                     <div class="review__stars">
@@ -501,6 +514,10 @@
                         <!--Beginner Reviews-->
                         <div class="carousel-item">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Beginner Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Shaun T</strong> - So good!</h4>
                                     <div class="review__stars">
@@ -548,6 +565,10 @@
                         <!--Intermediate Reviews-->
                         <div class="carousel-item">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Intermediate Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Alex W</strong> - No one esle like them.</h4>
                                     <div class="review__stars">
@@ -591,6 +612,10 @@
                         <!--Expert Reviews-->
                         <div class="carousel-item">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Expert Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Emma D</strong> - Awesome people, awesome lesson.</h4>
                                     <div class="review__stars">
@@ -640,6 +665,10 @@
                         <!--Park Reviews-->
                         <div class="carousel-item">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Park Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Brad J</strong> - Fixed all my problems.</h4>
                                     <div class="review__stars">
@@ -688,6 +717,10 @@
                         <!--Back Country Reviews-->
                         <div class="carousel-item">
                             <div class="carousel__row row">
+                                <div class="review-slide-header">
+                                    <h3 class="review-slide-header__item header__info highlight">Back Country Reviews</h3>
+                                    <hr class="review-slide-header__line hoz-line">
+                                </div>
                                 <div class="review col-12">
                                     <h4 class="review__title"><strong>Hannah F</strong> - Amazing!</h4>
                                     <div class="review__stars">
