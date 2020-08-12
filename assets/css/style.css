@@ -22,7 +22,6 @@
         display: none;
     }
 }
-
 /*--(END of NOT MY CODE)--*/
 
 /*-------------------------------Content Editing*/
@@ -195,33 +194,25 @@ h4 {
 /*--Buttons--*/
 .cta,
 .button {
-    border: 0;
     color: #ffffff;
     background-color: var(--brand-color);
     border-radius: 5px;
-    min-height: 50px;
+    display: inline-block;
+    min-width: 200px;
+    height: auto;
+    padding: 13px 0;
+    vertical-align: middle;
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    min-width: 200px;
-    padding: 0px;
+    outline: none;
+    border: 0px;
 }
 
 .cta:hover,
 .button:hover {
     color: var(--brand-color);
     background-color: var(--brand-color-hover);
-}
-
-.button>a,
-.cta>a {
-    display: inline-block;
-    width: 100%;
-    padding: 13px;
-}
-
-.collapse-button-text-padding {
-    padding: 0 13px !important;
 }
 
 /*--Form--*/
@@ -457,7 +448,7 @@ h4 {
 
 .site-header__cta {
     float: right;
-    height: 40px;
+    padding: 8px;
     margin-right: 45px;
     min-width: 150px;
     position: relative;
@@ -465,9 +456,6 @@ h4 {
     min-height: 0;
 }
 
-.site-header__cta a{
-    padding: 8px;
-}
 /*-------------------------------Site Header & Nav: Mobile & Responsive*/
 .navbar-toggler {
     padding: 0;
