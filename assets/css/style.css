@@ -1142,7 +1142,7 @@ header__info-xs {
     .product-card__content {
         background-color: #e2e2e2;
         width: 100%;
-        padding: 50px auto;
+        padding: 50px 0;
     }
 
     .product-card__content>* {
@@ -1296,7 +1296,7 @@ header__info-xs {
     max-width: none;
 }
 
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
     .contact-item {
         margin-top: 50px;
     }
