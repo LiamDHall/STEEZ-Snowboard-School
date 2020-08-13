@@ -157,6 +157,7 @@
                     <hr class="header__hoz-line hoz-line">
                     <h3 class="header__tagline header-spacing">Need some info? Get in touch.</h3>
                     <h4 class="header__info header-spacing">Please fill out the form below and we will get back to you within 2 days.</h4>
+                    <p class="header__info-small header-spacing">Your details will not be passed on to any third party.</p>
                     <p class="header__info-small header-spacing">All fields with a <span class="highlight highlight--important notranslate">*</span> are required.</p>
                 </header>
                 <form id="contact-form" class="form needs-validation" action="https://formdump.codeinstitute.net/" target="_blank" method="post"  novalidate>
@@ -172,7 +173,7 @@
                             </div>
                         </div>
                         <div class="form__divider form__divider--right col-12 col-lg-6">
-                            <label for="label-name" class="form__label">Last Name <span class="highlight highlight--important notranslate">*</span></label>
+                            <label for="last-name" class="form__label">Last Name <span class="highlight highlight--important notranslate">*</span></label>
                             <input type="text" name="last-name" class="form__input" id="last-name" placeholder="Last Name" maxlength="25" required>
                             <div class="valid-feedback">
                                 Looking good
@@ -190,9 +191,9 @@
                             <div class="invalid-feedback">
                                 Please enter a valid email!
                             </div>
-                            <label for="review-text" class="form__label">What did you think of the lesson? <span class="form-input-info">Max 500 charaters.</span></label>
+                            <label for="review-text" class="form__label">What would you like to discuss?<span class="form-input-info">Max 500 charaters.</span></label>
                             <textarea name="review-text" class="form__text-area" id="review-text" rows="10" placeholder="Tell us how you got on." maxlength="500"></textarea>
-                            <input type="submit" class="form__submit button control form__input" id="review-submit" value="Submit">
+                            <input type="submit" class="form__submit button control form__input" id="review-submit" value="Submit" aria-label="submit-review button">
                         </div>
                     </div>
                 </form>
@@ -251,12 +252,12 @@
                     <p>Sign up to our newletter today and get up to date on everything 
                     STEEZ as well as grabbing yourself a great deal on lessons and camps!</p>
                     <div class="footer__actions">
-                        <form id="footer-newsletter-sign-up" class="footer__newsletter-sign-up needs-validation" action="https://formdump.codeinstitute.net/" method="post" novalidate>
+                        <form id="footer-newsletter-sign-up" class="footer__newsletter-sign-up needs-validation" action="#" method="post" aria-label="type your email to sign up to newsletter" novalidate>
                             <input type="email" name="footer-newsletter-email" id="footer-newsletter-email" class="footer__newsletter-email form__input" placeholder="Type your email addreess here." required>
                             <div class="invalid-feedback">
                                 Please enter a valid email!
                             </div>
-                            <input type="submit" id="footer-newsletter-submit" class="footer__cta cta" value="Sign Up">
+                            <input type="submit" id="footer-newsletter-submit" class="footer__cta cta" value="Sign Up" aria-label="submit email to newsletter">
                         </form>
                     </div>
                 </div>
