@@ -92,6 +92,64 @@
     }
 }
 
+/*--Instructor Images--*/
+.product__image--instr-one {
+    background: url(../images/instructor-image-one.jpg) no-repeat center center;
+    background-position: 0% 75%;
+}
+
+.product__image--instr-two {
+    background: url(../images/instructor-image-two.jpg) no-repeat center center;
+    background-position: 50% 100%;
+}
+
+.product__image--instr-three {
+    background: url(../images/instructor-image-three.jpg) no-repeat center center;
+    background-position: 50% 75%;
+}
+
+.product__image--instr-four {
+    background: url(../images/instructor-image-four.jpg) no-repeat center center;
+    background-position: 50% 50%;
+}
+
+.product__image--instr-five {
+    background: url(../images/instructor-image-five.jpg) no-repeat center center;
+    background-position: 60% 75%;
+}
+
+.product__image--instr-six {
+    background: url(../images/instructor-image-six.jpg) no-repeat center center;
+    background-position: 50% 100%;
+}
+
+/*-- Lesson Image Mobile Positions--*/
+@media screen and (max-width: 992px) {
+    .product__image--instr-one {
+        background-position: 15% 100%;
+    }
+
+    .product__image--instr-two {
+        background-position: 50% 50%;
+    }
+
+    .product__image--instr-three {
+        background-position: 50% 75%;
+    }
+
+    .product__image--instr-four {
+        background-position: 50% 50%;
+    }
+
+    .product__image--instr-five {
+        background-position: 55% 50%;
+    }
+
+    .product__image--instr-six {
+        background-position: 50% 100%;
+    }
+}
+
 /*-------------------------------Basic Structure*/ 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -909,7 +967,7 @@ header__info-xs {
     margin-right: 20px;
 }
 
-/*-------------------------------Product*/
+/*-------------------------------Product & Intructor Cards*/
 .product-row {
     margin-top: 100px;
 }
@@ -1116,8 +1174,16 @@ header__info-xs {
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
-
     }
+
+
+
+    /*--Instructor Card--*/
+    .product-card--instructor {
+        min-height: 500px;
+        top: -20px;
+    }
+    
 
     .product-card__tagline {
         font-size: 1.25rem;
@@ -1135,6 +1201,10 @@ header__info-xs {
 
     .image-crop {
         display: none;
+    }
+
+    .product__image--instructor {
+        top: 0px;
     }
 }
 
