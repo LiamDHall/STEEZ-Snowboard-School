@@ -34,8 +34,8 @@
                     <ul class="site-header__navbar">
 
                         <!--Google Translate Mobile Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-                        <li class="google-translate-mobile">
-                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                        <li class="google-translate-mobile"  aria-label="google translate language selector">
+                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="google-translate-collapse">
                                 <i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
                             </button>
                             <ul id="google-translate-collapse" class="google-translate-collapse-dropdown list-unstyled collapse">
@@ -88,7 +88,7 @@
             </nav>
 
             <!--Google Translate Desktop Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-            <ul class="google-translate-container">
+            <ul class="google-translate-container"  aria-label="language selector">
                 <li class="google-translate list-unstyled"><i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
                     <ul class="google-translate__dropdown list-unstyled">
                         <li>
@@ -138,9 +138,9 @@
                 <nav class="breadcrumb-nav-container header-spacing" aria-label="booking breadcrumb nav">
                     <ol class="breadcrumb">
                         <li class="breadcrumb__item step-pasted"><a href="book-now.html">Your Details</a></li>
-                        <li class="breadcrumb__item step-pasted breadcrumb__icon"></li>
+                        <li class="breadcrumb__item step-pasted breadcrumb__icon" aria-hidden="true"></li>
                         <li class="breadcrumb__item step-pasted"><a href="payment.html">Payment</a></li>
-                        <li class="breadcrumb__item step-pasted breadcrumb__icon"></li>
+                        <li class="breadcrumb__item step-pasted breadcrumb__icon" aria-hidden="true"></li>
                         <li class="breadcrumb__item active" aria-current="page">Confirmation</li>
                     </ol>
                 </nav>
@@ -209,9 +209,9 @@
                 <div class="footer__map footer__content col-12 col-lg-4">
                     <h3>Map</h3>
                     <hr class="footer__hoz-line hoz-line">
-                    <div class="footer__location-map" alt="google map with drop pin showing steez snowboard school location">
+                    <div class="footer__location-map">
                         <!--NOT MY OWN CODE Source: Google Maps-->
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1j3k9WHG0kcyjcsjof1N5aOtN6bAZ-XQW" width="100%" height="300"></iframe>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1j3k9WHG0kcyjcsjof1N5aOtN6bAZ-XQW" width="100%" height="300" aria-label="google map with drop pin showing steez snowboard school location"></iframe>
                         <!--END of NOT MY OWN CODE-->
                     </div>
                 </div>
@@ -220,10 +220,10 @@
             <div class="social row">
                 <div class="social-inner col-12">
                     <ul class="social__icons">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="open our facebook page"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" aria-label="open our youtube page"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank" aria-label="open our twitter page"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="open our instagram page"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -34,8 +34,8 @@
                     <ul class="site-header__navbar">
 
                         <!--Google Translate Mobile Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-                        <li class="google-translate-mobile">
-                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="collapse-sumbit-review">
+                        <li class="google-translate-mobile"  aria-label="language selector">
+                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="google-translate-collapse">
                                 <i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
                             </button>
                             <ul id="google-translate-collapse" class="google-translate-collapse-dropdown list-unstyled collapse">
@@ -88,7 +88,7 @@
             </nav>
 
             <!--Google Translate Desktop Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-            <ul class="google-translate-container">
+            <ul class="google-translate-container"  aria-label="language selector">
                 <li class="google-translate list-unstyled"><i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
                     <ul class="google-translate__dropdown list-unstyled">
                         <li>
@@ -143,7 +143,7 @@
                 <!--Instructor 1-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-one product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-one product__image--left" role="img" aria-label="Picture of STEEZ Instructor Steve">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -175,7 +175,7 @@
                 <!--Instructor 2-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-two product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-two product__image--left" role="img" aria-label="Picture of STEEZ Instructor Alicia">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -205,7 +205,7 @@
                 <!--Instructor 3-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-three product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-three product__image--left" role="img" aria-label="Picture of STEEZ Instructor Tilly">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -236,7 +236,7 @@
                 <!--Instructor 4-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-four product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-four product__image--left" role="img" aria-label="Picture of STEEZ Instructor Sasha">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -267,7 +267,7 @@
                 <!--Instructor 5-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-five product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-five product__image--left" role="img" aria-label="Picture of STEEZ Instructor Brian">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -298,7 +298,7 @@
                 <!--Instructor 6-->
                 <div class="product-row row">
                     <div class=" product col-12">
-                        <div class="product__image product__image--instructor product__image--instr-six product__image--left" role="img" aria-label="Picture of STEEZ Instructor">
+                        <div class="product__image product__image--instructor product__image--instr-six product__image--left" role="img" aria-label="Picture of STEEZ Instructor John">
                             <span class="image-crop image-crop--left image-crop--white"></span>
                         </div>
                         <div class="product-card product-card--right product-card--instructor">
@@ -366,9 +366,9 @@
                 <div class="footer__map footer__content col-12 col-lg-4">
                     <h3>Map</h3>
                     <hr class="footer__hoz-line hoz-line">
-                    <div class="footer__location-map" alt="google map with drop pin showing steez snowboard school location">
+                    <div class="footer__location-map">
                         <!--NOT MY OWN CODE Source: Google Maps-->
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1j3k9WHG0kcyjcsjof1N5aOtN6bAZ-XQW" width="100%" height="300"></iframe>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1j3k9WHG0kcyjcsjof1N5aOtN6bAZ-XQW" width="100%" height="300"  aria-label="google map with drop pin showing steez snowboard school location"></iframe>
                         <!--END of NOT MY OWN CODE-->
                     </div>
                 </div>
@@ -377,10 +377,10 @@
             <div class="social row">
                 <div class="social-inner col-12">
                     <ul class="social__icons">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="open our facebook page"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" aria-label="open our youtube page"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank" aria-label="open our twitter page"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="open our instagram page"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
