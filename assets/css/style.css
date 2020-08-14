@@ -850,23 +850,23 @@ h4 {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .hero__hoz-line {
-        width: 325px;
-    }
-
-    .hero__cta {
-        display: block;
+@media screen and (max-width: 992px) {
+    .hero__tagline {
+        font-size: 1.5rem;
     }
 }
 
-@media screen and (max-width: 768px) {   
+@media screen and (max-width: 768px) {
     .hero__image {
         background-position: 70% 50%;
     }
 
     .hero--inner {
         width: 92%;
+    }
+    
+    .hero__hoz-line {
+        width: 325px;
     }
 
     .hero__title {
@@ -880,10 +880,47 @@ h4 {
     .hero__hoz-line {
         width: 205px;
     }
+
+    .hero__cta {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+    .hero__tagline {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 525px) {
+    .hero__title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero__title {
+        font-size: 1.75rem;
+    }
+
+    .hero__discount {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    .hero__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero__image {
+        height: 70vh;
+    }
+
     .hero-inner {
+        width: 92%;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -894,21 +931,6 @@ h4 {
         transform: translate(-50%, -50%);
     }
 
-    .hero__title {
-        font-size: 1.75rem;
-    }
-
-    .hero__tagline, 
-    .hero__discount {
-        font-size: 1rem;
-    }
-
-    .header__tagline {
-        font-size: 1.25rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .hero__cta {
         width: 100%;
     }
