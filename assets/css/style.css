@@ -1627,3 +1627,8 @@ header__info-xs {
     height: 100px;
     width: 100px;
 }
+
+/*-------------------------------Legal Documents*/
+.doc-row {
+    width: 80%;
+}
