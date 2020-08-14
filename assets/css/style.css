@@ -237,10 +237,14 @@ h4 {
 }
 
 .hoz-line {
-    border: 1px solid #000000;
-    width: 50%;
-    max-width: 250px;
-    color:#000000;
+    border: 1px solid;
+}
+
+.hoz-line--page {
+    border-color: #000000;
+    background: #000000;
+    max-width: 400px;
+    width: 60%;
 }
 
 .hoz-line--brand {
@@ -251,6 +255,10 @@ h4 {
 .hoz-line--fw {
     width: 100%;
     max-width: none;
+}
+
+.hoz-line--left {
+    margin-left: 0;
 }
 
 .mobile-break {
@@ -810,9 +818,6 @@ h4 {
 
 .hero__hoz-line {
     width: 505px;
-    border: 1px solid;
-    border-color: var(--brand-color);
-    color: var(--brand-color);
 }
 
 .hero__tagline {
@@ -1230,12 +1235,6 @@ header__info-xs {
     width: 100%;
 }
 
-.review-slide-header__line {
-    width: 100%;
-    color: var(--brand-color);
-    border-color: var(--brand-color);
-    max-width: none;
-}
 
 .review {
     margin-top: 50px;
@@ -1353,11 +1352,6 @@ header__info-xs {
 }
 
 /*-------------------------------Contact Us*/
-.contact-hoz-line {
-    width: 100%;
-    max-width: none;
-}
-
 .contact-item p {
     margin-top: 16px;
 }
