@@ -1517,7 +1517,7 @@ header__info-xs {
 
 .confirmation-cta {
     margin: 20px auto 0;
-    display: block;
+    display: inline-block;
 }
 
 /*--Bread Crumb Nav*/
