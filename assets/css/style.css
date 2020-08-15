@@ -551,11 +551,10 @@ header__info-xs {
 
 .logo__text { 
     float: left;
+    line-height: 0.8;
+    font-size: 1.75rem;
 }
 
-.logo__text h2 {
-    line-height: 0.8;
-}
 
 .logo__tagline {
     margin-left: 10px;
@@ -877,7 +876,7 @@ header__info-xs {
     .hero__tagline {
         font-size: 1rem;
     }
-    
+
     .hero__discount {
         font-size: 1rem;
     }
