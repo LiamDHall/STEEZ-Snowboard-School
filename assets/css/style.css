@@ -27,8 +27,8 @@
 /*-------------------------------Content Editing*/
 /*--Brand Colours--*/
 :root {
-    --brand-color: #68edff;
-    --brand-color-hover: #ffffff;
+    --brand-color: #00d9ff;
+    --brand-color-hover: #00b7ff;
 }
 
 /*--Hero Image--*/
@@ -277,17 +277,17 @@ h4 {
     border-radius: 5px;
     display: inline-block;
     min-width: 200px;
-    padding: 13px;
+    padding: 11px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
     outline: none;
-    border: 0px;
+    border: 0;
 }
 
 .cta:hover,
 .button:hover {
-    color: var(--brand-color);
+    color: #ffffff;
     background-color: var(--brand-color-hover);
 }
 
