@@ -554,6 +554,10 @@ h4 {
     transform: translateY(-50%);
 }
 
+.navbar-toggler:focus {
+    outline-color: var(--brand-color);
+}
+
 .fa-bars {
     padding: 10px 15px;
 }
