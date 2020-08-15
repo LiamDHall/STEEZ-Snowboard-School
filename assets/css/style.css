@@ -519,6 +519,8 @@ h4 {
     border: none;
 }
 
+.site-header__navbar a:hover,
+.site-header__navbar a:active,
 .site-header__navbar .active {
     border-bottom: 2px solid;
     border-color: var(--brand-color);
@@ -584,7 +586,7 @@ h4 {
         width: 100%;
     }  
     
-    .site-header__navbar .active {
+    .site-header__navbar a:active {
         border-bottom: 0px;
         color: var(--brand-color);
     }
