@@ -242,14 +242,12 @@ h4 {
 
 .hoz-line--page {
     border-color: #000000;
-    background: #000000;
     max-width: 400px;
     width: 60%;
 }
 
 .hoz-line--brand {
     border-color: var(--brand-color);
-    background-color: var(--brand-color);
 }
 
 .hoz-line--fw {
