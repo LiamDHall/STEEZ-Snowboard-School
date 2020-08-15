@@ -34,11 +34,11 @@
                     <ul class="site-header__navbar">
 
                         <!--Google Translate Mobile Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-                        <li class="google-translate-mobile"  aria-label="language selector">
-                            <button class="google-translate__button" type="button" data-toggle="collapse" data-target="#google-translate-collapse" aria-expanded="false" aria-controls="google-translate-collapse">
+                        <li class="google-translate-mobile">
+                            <button class="google-translate__button-mobile" type="button" data-toggle="collapse" data-target="#google-translate-collapse-mobile" aria-label="language selector" aria-expanded="false" aria-controls="google-translate-collapse-mobile">
                                 <i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
                             </button>
-                            <ul id="google-translate-collapse" class="google-translate-collapse-dropdown list-unstyled collapse">
+                            <ul id="google-translate-collapse-mobile" class="google-translate-collapse-dropdown list-unstyled collapse">
                                 <li>
                                     <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.countryflags.io/gb/flat/16.png" alt="EN">
                                         <span class="notranslate">English</span>
@@ -88,45 +88,44 @@
             </nav>
 
             <!--Google Translate Desktop Source: https://jsfiddle.net/solodev/0stLrpqg/ Adapted For My Needs-->
-            <ul class="google-translate-container"  aria-label="language selector">
-                <li class="google-translate list-unstyled"><i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
-                    <ul class="google-translate__dropdown list-unstyled">
-                        <li>
-                            <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.countryflags.io/gb/flat/16.png" alt="EN">
-                                <span class="notranslate">English</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|fr)" class="lang-fr lang-select" data-lang="fr"><img src="https://www.countryflags.io/fr/flat/16.png" alt="FR">
-                                <span class="notranslate">Français</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|it)" class="lang-it lang-select" data-lang="it"><img src="https://www.countryflags.io/it/flat/16.png" alt="IT"> 
-                                <span class="notranslate">Italien</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|de)" class="lang-de lang-select" data-lang="de"><img src="https://www.countryflags.io/de/flat/16.png" alt="DE"> 
-                                <span class="notranslate">Deutsche</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|ru)" class="lang-ru lang-select" data-lang="ru"><img src="https://www.countryflags.io/ru/flat/16.png" alt="RU">
-                                <span class="notranslate">Pусский</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|ja)" class="lang-ja lang-select" data-lang="ja"><img src="https://www.countryflags.io/jp/flat/16.png" alt="JA">
-                                <span class="notranslate">日本人</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#googtrans(en|zh-CN)" class="lang-zh-CH lang-select" data-lang="zh-CN"><img src="https://www.countryflags.io/cn/flat/16.png" alt="ZH-CN">
-                                <span class="notranslate">中文</span>
-                            </a>
-                        </li>
-                    </ul>
+            <button class="google-translate__button-desktop" type="button" data-toggle="collapse" data-target="#google-translate__dropdown" aria-label="language selector" aria-expanded="false" aria-controls="google-translate__dropdown">
+                <i class="fas fa-language"></i> <i class="fas fa-angle-down"></i>
+            </button>
+            <ul id="google-translate__dropdown" class="google-translate__dropdown list-unstyled collapse">
+                <li>
+                    <a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.countryflags.io/gb/flat/16.png" alt="EN">
+                        <span class="notranslate">English</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|fr)" class="lang-fr lang-select" data-lang="fr"><img src="https://www.countryflags.io/fr/flat/16.png" alt="FR">
+                        <span class="notranslate">Français</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|it)" class="lang-it lang-select" data-lang="it"><img src="https://www.countryflags.io/it/flat/16.png" alt="IT"> 
+                        <span class="notranslate">Italien</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|de)" class="lang-de lang-select" data-lang="de"><img src="https://www.countryflags.io/de/flat/16.png" alt="DE"> 
+                        <span class="notranslate">Deutsche</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|ru)" class="lang-ru lang-select" data-lang="ru"><img src="https://www.countryflags.io/ru/flat/16.png" alt="RU">
+                        <span class="notranslate">Pусский</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|ja)" class="lang-ja lang-select" data-lang="ja"><img src="https://www.countryflags.io/jp/flat/16.png" alt="JA">
+                        <span class="notranslate">日本人</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(en|zh-CN)" class="lang-zh-CH lang-select" data-lang="zh-CN"><img src="https://www.countryflags.io/cn/flat/16.png" alt="ZH-CN">
+                        <span class="notranslate">中文</span>
+                    </a>
                 </li>
             </ul>
         </header>
