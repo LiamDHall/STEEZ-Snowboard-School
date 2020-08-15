@@ -589,9 +589,12 @@ h4 {
         width: 100%;
     }  
     
-    .site-header__navbar a:active {
+    .site-header__navbar a:hover,
+    .site-header__navbar a:active,
+    .site-header__navbar .active {
         border-bottom: 0px;
-        color: var(--brand-color);
+        background-color: var(--brand-color);
+        color: #ffffff;
     }
 }
 
