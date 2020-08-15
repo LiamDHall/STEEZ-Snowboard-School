@@ -933,6 +933,10 @@ header__info-xs {
     padding-top: 75px;
 }
 
+.header--page-section {
+    padding: 75px 0;
+}
+
 .header-spacing {
     margin-top: 35px;
     margin-bottom: 0px;
