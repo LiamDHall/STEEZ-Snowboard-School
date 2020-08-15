@@ -870,23 +870,22 @@ header__info-xs {
 }
 
 @media screen and (max-width: 525px) {
+    .hero__title {
+        font-size: 2rem;
+    }
+    
     .hero__tagline {
         font-size: 1rem;
     }
-}
-@media screen and (max-width: 525px) {
-    .hero__title {
-        font-size: 2rem;
+    
+    .hero__discount {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 425px) {
     .hero__title {
         font-size: 1.75rem;
-    }
-
-    .hero__discount {
-        font-size: 1rem;
     }
 }
 
