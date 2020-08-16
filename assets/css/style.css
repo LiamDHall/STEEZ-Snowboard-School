@@ -1224,6 +1224,10 @@ header__info-xs {
     margin-top: 50px;
 }
 
+.review-row {
+    text-align: center;
+}
+
 .review-slide-header {
     padding: 0 15px;
     width: 100%;
