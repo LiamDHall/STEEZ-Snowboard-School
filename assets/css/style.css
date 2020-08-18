@@ -1355,6 +1355,12 @@ header__info-xs {
     }
 }
 
+@media screen and (max-width: 300px) {
+    .review__stars {
+        font-size: 20px;
+    }
+}
+
 /*------------------------------------------------------Contact Us*/
 .contact-item p {
     margin-top: 16px;
