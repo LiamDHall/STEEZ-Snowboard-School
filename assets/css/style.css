@@ -1644,4 +1644,14 @@ header__info-xs {
     .legal__copywrite {
        display: none;
     }
+
+@media screen and (max-width: 295px) {
+    .social-inner {
+        padding: 0;
+    }
+
+    .social__icons li {
+        font-size: 2.5rem;
+        padding: 0 5px;
+    }
 }
