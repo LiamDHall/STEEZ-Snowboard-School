@@ -274,6 +274,13 @@ header__info-xs {
     background-color: var(--brand-color-hover);
 }
 
+@media screen and (max-width: 300px) {
+    .cta,
+    .button {
+        min-width: 0;
+    }
+}
+
 /*---------------------------Highlights--*/
 .highlight {
     font-weight: 700;
