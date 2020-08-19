@@ -43,7 +43,6 @@ I believe there is a gap in the market for this website and that is the reason w
     -   [Features Left to Implement](#Features-Left-to-Implement)
 - [**Technologies Used**](#Technologies-Used)
 - [**Testing**](#Testing)
-    -   [Validation](#Validation)
     -   [Functionality](#Functionality-Testing)
 - [**Deployment**](#Deployment)
     -   [Remote Deployment](#GitHub-Pages-Remote-Development)
@@ -174,7 +173,7 @@ The commit that introduces BEM is a large commit as I changed all pages to the s
 
 It also allows future developers to know an elements purpose, structure and if appropriate what it does from the class name.
 
-### CCS Variables
+### CSS Variables
 
 I added CSS Variables (though they caused an error in the validator, see [Validation Testing](#Testing))
 so the accent colour throughout the site can be changed by future developers quickly and easily if the company rebrands.
