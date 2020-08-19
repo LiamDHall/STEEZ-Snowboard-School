@@ -349,7 +349,7 @@ However the code from [Solodev](https://jsfiddle.net/solodev/0stLrpqg/) for [Goo
     dropdown produced after clicking the button was huge and most of the time went off the screen making languages unclickable. It also overwhelmes the user with so many
     options, a lot of which I believed unnecessary.
 
-    I chose to use the code from [Solodev](https://jsfiddle.net/solodev/0stLrpqg/) (Adpated to my needs see [Credits](##Credits)) as it allowed me to select only the languages
+    I chose to use the code from [Solodev](https://jsfiddle.net/solodev/0stLrpqg/) (Adpated to my needs see [Credits](#Credits)) as it allowed me to select only the languages
     I wanted. It also allowed me to more easily style the button and dropdown to fit into the style of the site and into the mobile nav menu.
 
 #### **Warnings**
@@ -478,7 +478,7 @@ All forms work as intended apart from the following:
 
 **Booking Page Form** ([book-now.html](https://liamdhall.github.io/STEEZ-Snowboard-School/book-now.html)):
 
-I added a multi page booking systems between the [Booking](https://liamdhall.github.io/STEEZ-Snowboard-School/book-now.html), [Payment](https://liamdhall.github.io/STEEZ-Snowboard-School/payment.html), [Confirmation](https://liamdhall.github.io/STEEZ-Snowboard-School/confirmation.html) Pages so not to overwhelm the user with all the checkout information on one page all at once.
+I added a multi page booking systems between the [Booking](https://liamdhall.github.io/STEEZ-Snowboard-School/book-now.html), [Payment](https://liamdhall.github.io/STEEZ-Snowboard-School/payment.html), [Confirmation](https://liamdhall.github.io/STEEZ-Snowboard-School/booking-confirmation.html) Pages so not to overwhelm the user with all the checkout information on one page all at once.
 
 This however produced some problems due to lack of knowledge and moving beyond the scope of this project.
 
@@ -550,8 +550,10 @@ View the live and deployed site here - [STEEZ Snowbaord School](https://liamdhal
 3. To clone with HTTPS copy the URL in the box. <https://github.com/liamdhall/STEEZ-Snowboard-School.git>
 4. Open up your Integrated Development Environment (IDE).
 5. Open your Command Line or equivalent if not already.
-6. Type **git clone** and paste the copied URL from step 3. (Should look like **git clone https://github.com/liamdhall/STEEZ-Snowboard-School.git**)
-7. If you then when to copy it a specific folder add the folder name to the end.(Should look like **git clone https://github.com/liamdhall/STEEZ-Snowboard-School.git folder-name**)
+6. Type **git clone** and paste the copied URL from step 3. 
+    (Should look like **git clone https://github.com/liamdhall/STEEZ-Snowboard-School.git**)
+7. If you then when to copy it a specific folder add the folder name to the end.
+    (Should look like **git clone https://github.com/liamdhall/STEEZ-Snowboard-School.git folder-name**)
 8. Press Enter and a local clone will be created.
 
 -   (The following steps may differ depending on what IDE you are using. This is how I previewed the website.)
