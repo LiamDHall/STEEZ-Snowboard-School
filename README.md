@@ -19,17 +19,25 @@ The website’s goal is to provide the user with all the information they need t
 
 The website has been created based on the needs of a real-life business looking to create an online presence.
 
+I believe there is a need for this webiste as most ski resorts have only ski specific schools. 
+
+They're is noramlly only one in each resort (having a monopoly) none of which specialise in snowboarding.
+
+I believe there is a gap in the market for this website and that is the reason why I chose STEEZ Snowboard School for this project.
+
 [View Live Site Here](https://liamdhall.github.io/STEEZ-Snowboard-School/)
 
 ## Contents
 
 -   [**UX**](#UX)
     -   [User Stories](#User-Stories)
--   [**Development**]
+-   [**Develoyment**](#Development)
     -   [Planning](#Planning)
     -   [Ideas](#Ideas)
     -   [Block Element Modifier](#Block-Element-Modifier-Class-Naming-System-BEM)
     -   [CSS Variables](#CSS-Variables)
+    -   [Duplicate Code](#Duplicate-Code)
+    -   [Forms](#Forms)
 - [**Features**](#Features)
     -   [Live Features](#Live-Features)
     -   [Features Left to Implement](#Features-Left-to-Implement)
@@ -70,7 +78,7 @@ We asked potential users what they would want to get out of using the website:
     A link to the lessons page is first in the main site navigation so it can easily be found from any page. 
     The lessons are then presented in order of difficulty which is shown by the title, directional arrows and the slant of the lesson indicating a group of lessons if on the same level.
 
-    [Lesson Info Fulfilment Screenshots](https://github.com/) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/index.html#lessons) / [Instructor Fulfilment Screenshots](https://github.com/) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/our-instructors.html)
+    [Lesson Info Fulfilment Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/assets/images/readme/user-stories/lesson-info.jpg) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/index.html#lessons) / [Instructor Fulfilment Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/assets/images/readme/user-stories/instructor-info.jpg) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/our-instructors.html)
 
 -   who’s first language isn’t English I would like the option to be able to view the website in other languages
 
@@ -80,7 +88,7 @@ We asked potential users what they would want to get out of using the website:
     7 languages are available of the most popular languages across alpine resorts.
     The selector is located in the same place on every page and in the mobile layout it moves into the collapsible navigation.  
 
-    [Translate Fulfiment Screenshots](https://github.com/) On all pages in header or in the mobile collapsible menu.
+    [Translate Fulfiment Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/tree/master/assets/images/readme/user-stories/translate) On all pages in header or in the mobile collapsible menu.
 
 -   be able to read about other potential client’s experiences, so I have a better insight into how good the lessons and experiences are as well as whether they are worthwhile for me. 
     
@@ -94,7 +102,7 @@ We asked potential users what they would want to get out of using the website:
     The review section of the homepage provides insights into previous customer experiences. 
     The review section is a carousel which is divided into the different lessons. 
     
-    [Customer Experience Fulfiment Screenshots](https://github.com/) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/index.html#lesson-reviews)
+    [Customer Experience Fulfiment Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/assets/images/readme/user-stories/reviews.jpg) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/index.html#lesson-reviews)
 
 -   who is a newbie to snowboarding I have no idea what I need or what to expect . It would be great to be provided with this information.
 
@@ -107,7 +115,7 @@ We asked potential users what they would want to get out of using the website:
     What to expect, what equipment they need and a link to where they can get it. 
     A link to get directions is also at the bottom of the page so they know where to meet for their lesson if they are checking the website just before their lesson to make sure they have everything. 
 
-    [First Timer Screenshots](https://github.com/) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/first-timers.html)
+    [First Timer Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/assets/images/readme/user-stories/first-timer-info.jpg) - [Live Page](https://liamdhall.github.io/STEEZ-Snowboard-School/first-timers.html)
 
 -   if I book a lesson I will need directions to the company.
 
@@ -124,43 +132,43 @@ We asked potential users what they would want to get out of using the website:
 
     There are "Get Directions" buttons throughout the site. There is on one every page in the footer.
 
-    [Directions Fulfilment Screenshots](https://github.com/) On multiple pages.
+    [Directions Fulfilment Screenshots](https://github.com/LiamDHall/STEEZ-Snowboard-School/tree/master/assets/images/readme/user-stories/directions) On multiple pages.
 
 ## Development
 
 ### Planning
 
-Please find the planning document [here](https://github.com/). This document contains the following planning stages **Scope, Strategy, Structure** for the website.
+Please find the planning document [here](https://github.com/LiamDHall/STEEZ-Snowboard-School/tree/master/planning/steez-snowboard-school-planning.pdf). This document contains the following planning stages **Scope, Strategy, Structure** for the website.
 
 ### Ideas
 
-The website has changed throughout its development. Please see the sites original wireframes here. [Original Wireframes](https://github.com/).
+The website has changed throughout its development. Please see the sites original wireframes here. [Original Wireframes](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/wireframes/old-wireframes.pdf).
 
-Originally I was planning for the company to offer more services but later realised they didn’t offer anything to the user experience so removed them.  
+Originally I was planning for the company to offer more services but later realised they didn’t offer anything to the user experience so I removed them.  
 I also wanted to include a check availability feature so the user could check if there was space on the lesson they wanted to book. 
-However this would need to update for each user as people booked their lesson, this would require code I have not yet studied such as Python.
+However, this would need to update for each user as people booked their lesson, this would require code I have not yet studied such as Python.
 
 I re-designed the website to fulfil the users needs more easily.
 
-See [Latest Wireframes](https://github.com/)
+See [Latest Wireframes](https://github.com/LiamDHall/STEEZ-Snowboard-School/blob/master/wireframes/latest-wireframes.pdf)
 
-Small changes have been made to website with the addition of new pages and links not thought of at the time of creation.
+Small changes have been made to the website with the addition of a new page and links not thought of at the time of creation.
 
 ### Commit Messages
 
 At the start of this project I didnt know a lot about git commit messages. 
-Therefore my commits at the start of the project my be less detailed and poorly formatted.
-During the project I read this [artictal](https://www.theserverside.com/video/Follow-these-git-commit-message-guidelines) and tried to follow it as closely as possible.
--   I tried to keep subject line to 50 character but where appropriate I extended it to 72
+Therefore my commits at the start of the project may be less detailed and poorly formatted.
+During the project I read this [artictle](https://www.theserverside.com/video/Follow-these-git-commit-message-guidelines) and tried to follow it as closely as possible.
+-   I tried to keep subject line to 50 characters but where appropriate I extended it to 72.
 -   I wrapped each line of the message body at 72 characters as some repositories don't automatically wrap text to a new lines.
--   If only a single document was edited in the commit I noted it in the commit in the format **document: Subjuct line** so when future developers look through the commits they know
+-   If a single document was edited in the commit, I noted it in the commit in the format **document: Subject line** so when future developers look through the commits they know
     which document is effected.
 -   I only capitalised the first letter of the subject line as some developers use filters that look for capitalisation.
 
 ### Block Element Modifier Class Naming System BEM
 
 Starting this project I didn't use BEM but later realised it was very beneficial. 
-It allowed me to style new pages very quickly with gernic classes I had styled for previous pages.
+It allowed me to style new pages very quickly with generic classes I had styled for previous pages.
 
 The commit that introduces BEM is a large commit as I changed all pages to the system at once.
 
@@ -170,14 +178,23 @@ It also allows future developers to know an elements purpose, structure and if a
 
 I added CSS Variables (though they caused an error in the validator, see [Validation Testing](#Testing))
 so the accent colour throughout the site can be changed by future developers quickly and easily if the company rebrands.
-This saves a lot of time. Instead of having to manually change the color value of all rules each time the company rebrands ot uploads new media, only one has to be changed.
+This saves a lot of time. Instead of having to manually change the color value of all rules each time the company rebrands or uploads new media, only one has to be changed.
 
 ### Images Set As Background Images
 
 Images throughout the site are set via CSS as background images. 
 This allows for the images to scale better with a change in screen size.
 It also allows the position of the images to be set within its div in terms of focus point for its scaling.
-I created a section in the CSS where all the images can be changed easily.  
+I created a section in the CSS where all the images can be changed easily.
+
+### Duplicate Code
+
+To implement the Google Translate tool in both mobile and desktop versions of the site I had to repeat the code for it which is undesirable.  
+
+### Forms
+
+All forms are linked to send all input data to [Code Institute's Form Dump](https://formdump.codeinstitute.net/) to demotrate the proper use of functionality attributes for a form.
+When a form is submitted a new tab will open with a read out of the data inputed and its label.
 
 ## Features
 
@@ -402,7 +419,7 @@ I have tested the site in following browsers: [Google Chrome](https://www.google
 
 ~~Issues with images not loading on [First Timers Page](https://liamdhall.github.io/STEEZ-Snowboard-School/first-timers.html) in all browsers. All load properly in the Gitpod Browser Preview.~~ 
 
-**See [Bug Report](##Bug-Report) for more details**
+**See [Bug Report](#Bug-Report) for more details**
 
 **Resolved: The site looks visually the same across each browser.**
 
@@ -626,10 +643,10 @@ Code from third parties has been credited in the code of the website where appro
 
 I would like to thank the Code Institute Tutor and my mentor Allen Varghese who supported me throughout this project.
 
-I would also like to thank the following people for being test users and for helping me spellcheck the site:
+I would also like to thank the following people for being test users and for helping me spell check the site:
 -   Sasha S
 -   Kieran H
 -   Chris H
 -   Liz H
 
-I used the following website for research [W3C School](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/), [CSS Tricks](https://css-tricks.com/) and [The Server Side](https://www.theserverside.com/video/Follow-these-git-commit-message-guidelines). 
+I used the following websites for my research [W3C School](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/), [CSS Tricks](https://css-tricks.com/), [The Server Side](https://www.theserverside.com/) and [Get BEM](http://getbem.com/) for this project. 
